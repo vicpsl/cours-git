@@ -82,15 +82,4 @@ Encore plus intéressant : en cas de pull request, il vous avertira avant de fai
 Dans l'optique du projet, on utilisera la configuration suivante 
 
 
-```shell
-language: python
 
-python:
-  - '3.5'
-
-install:
-  - pip3 install HookTest>=1.0.0
-
-script: hooktest ./ --scheme epidoc --workers 3 --verbose 10 --manifest --console table --countword
-
-```

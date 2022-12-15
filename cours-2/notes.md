@@ -24,13 +24,18 @@ Généralement, la branche principale s'appelle la branche *master*. Les autres 
 On recommande généralement de faire une branche = une tache (soit un bug, une nouvelle fonctionnalité, etc.)
 
 ## Slide 2
-## Slide 2
 
 ```bash
-
-git branch resume
-git checkout resume
-# Télécharger https://services.github.com/on-demand/downloads/fr/github-git-cheat-sheet.pdf
+# Créer un dossier exercice_cours2
+# Ouvrir le dossier dans le terminal
+git init
+git touch master.md
+git add 
+git commit -m "Ajout du doc master.md pour le premier commit"
+git log
+git checkout -b cheat_sheet
+# Télécharger https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf
+# Le copier dans le depot
 git status
 git add github-git-cheat-sheet.pdf
 git commit -m "Ajout de la cheatsheet de github"
@@ -41,17 +46,20 @@ git checkout master
 git status
 git log
 git checkout dev
-gedit cours1.md # Ajouter l'adresse que l'on a utilisé pour le téléchargement
+gedit cours2.md # Ajouter l'adresse que l'on a utilisé pour le téléchargement. Enregistrer le document (save).
 git diff
 git status
-git add cours1.md
+git add cours2.md
 git commit -m "Ajout de l'adresse d'origine du document aux notes du cours"
 git status
 git checkout master
-# Regarder le dossier et cours1.md
+# Regarder le dossier (pas de cours2.md)
 git log
 git merge resume
-# Regarder le dossier et cours1.md
+# Regarder le dossier (cours2.md présent)
+git log
+git reset cd5551453f56e09b664ddbc87530abfdd76473b6 --hard
+# Regarder le dossier (pas de cours2.md)
 git log
 ```
 
@@ -59,13 +67,12 @@ git log
 
 ```bash
 git status # Être sur d'être sur master
-gedit exercice.xml # Copier le contenu de https://ponteineptique.github.io/cours-git/cours-2/exemple.xml
+# Télécharger https://github.com/vicpsl/cours-git/blob/master/cours-2/exemple.xml
 git add exercice.xml
-git commit -m "Ajout d'un barebone xml"
-git branch changement-texte
-git checkout changement-texte
+git commit -m "Ajout d'un fichier TEI"
+git checkout -b changement_texte
 gedit exercice.xml # Changer titre, auteur et description
-git commit -m "Ajout d'un barebone xml"
+git commit -m "Modif fichier TEI"
 git log
 git status
 
@@ -79,8 +86,8 @@ git log
 git status
 gedit exercice.xml # Titre et l'auteur pour "Epigrammes" et "Martial"
 git add exercice.xml
-git commit -m "Titre martial"
-git merge changement-texte
+git commit -m "Modif fichier TEI sur master"
+git merge changement_texte
 git log
 git status
 ```

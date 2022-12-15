@@ -48,25 +48,25 @@ marp: true
 
 # 6. Github : les issues d'un repo data
 
-![bg right w:100%](images/canonicallatinlit-issues.png)
+![](images/canonicallatinlit-issues.png)
 
 ---
 
 # 7. Github : un exemple de bonne issue
 
-![bg right w:100%](images/oglfirst1k-issue1548.png){height=60%}
+![](images/oglfirst1k-issue1548.png)
 
 ---
 
 # 8. Github : un exemple de mauvaise issue
 
-![bg right w:100%](images/canonicallatinlit-issue86.png){height=60%}
+![](images/canonicallatinlit-issue86.png)
 
 ---
 
 # 9. Les dépôts dérivés (forks)
 
-- Les données de https://github.com/chartes/elec vous intéresse. Mais vous aimeriez changer une partie des données : ne conserver que les testaments de poilu et supprimer les éléments qui ne correspondent pas à vos besoins.
+- Les données de https://github.com/orgs/chartes/repositories?type=all vous intéresse. Mais vous aimeriez changer une partie des données : ne conserver que les testaments de poilu et supprimer les éléments qui ne correspondent pas à vos besoins.
 - À ce moment-là, on va réaliser un **fork** du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille sur ce repository ensuite localement, comme on travaillerait avec n'importe quel repository.
 - **Note:** Si l'on fait des modifications sur un dépôt d'une autre personne, il est plus respectueux de faire un fork que de télécharger et de créer un nouveau dépôt.
 
@@ -87,7 +87,7 @@ marp: true
 -  Je remarque une erreur dans les métadonnées d'un document
 	1. J'ouvre une issue qui explique le problème (Typo dans le fichier X, etc.)
 	2. Parce que je veux être encore plus utile, je veux proposer la modification pour que le propriétaire n'ait pas à faire la correction lui-même
-	3. Je fais un fork du dépôt du cours ( https://github.com/ponteineptique/cours-git )
+	3. Je fais un fork du dépôt du cours ( https://github.com/vicpsl/cours-git )
 	4. Je crée une branche spécifique et je rentre dessus
 		- Tips : quand on fait une branche pour un objectif particulier, on l'appelle du nom de l'issue pour se souvenir de pourquoi on a créé cette branche
 	5. Je fais la modification et je la commit
@@ -95,7 +95,7 @@ marp: true
 	7. Je fais une pull request sur le repository d'origine
 
 ---
-
+<!---
 # 12. Exercice
 
 - Aller sur https://github.com/PonteIneptique/canonical-greekLit 
@@ -113,3 +113,4 @@ marp: true
 </cpt:structured-metadata>
 </ti:textgroup>
 ```
+-->

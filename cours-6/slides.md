@@ -1,6 +1,5 @@
 % Développer et gérer un projet: les bonnes pratiques
-% Thibault Clérice
-% Octobre X, 2017
+
 
 # 1. Quelles bonnes pratiques ?
 

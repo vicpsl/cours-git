@@ -10,7 +10,7 @@ Heureusement, des entreprises et des structures publiques fournissent des servic
 
 Faire un dessin permettant de faire comprendre
 
-- *Remote* : Serveur distant permettant la synchronisation manuelle de votre dépôt
+- *remote* : Serveur distant permettant la synchronisation manuelle de votre dépôt
 - *origin* : Nom du serveur principal, un peu comme master est la branche principale. Pour l'instant, nos serveurs n'en ont pas
 - *push* : Envoyez les modifications effectuées sur un serveur donné.
 - *pull* : Retrouvez les informations depuis un serveur donné

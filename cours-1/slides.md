@@ -12,7 +12,9 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 # 1. Problème
 
-![bg right h:400px](images/motivation1.png)
+![bg right:40% w:100%](images/motivation1.png)
+
+<div style="page-break-after: always;"></div>
 
 ---
 
@@ -98,17 +100,7 @@ On distingue trois "états" des fichiers
 
 ---
 
-# 10. Formats "compilés" / "compressés"
-
-https://ponteineptique.github.io/cours-git/cours-1/images/blanc.png 
-https://ponteineptique.github.io/cours-git/cours-1/images/blanc2.png 
-
-![drop-shadow w:200px](images/blanc.png)
-![drop-shadow w:200px](images/blanc2.png)
-
----
-
-# 11. Précisions techniques
+# 10. Précisions techniques
 
 Contrairement à ce que l'on pourrait penser, Git n'archive ou ne sauvegarde pas vos fichiers. Ce qu'il sauvegarde, ce sont les modifications apportées à des fichiers. Par exemple, si je crée un fichier toto.txt qui contient "toto" en ligne 1, il enregistrera:
 
@@ -125,7 +117,29 @@ Si ensuite, j'ajoute une nouvelle ligne:
 
 Où `\n` est un retour à la ligne.
 
+---
 
+# 11. Par conséquent (premieres bonnes pratiques):
+
+**Git est performant avec des fichiers simples (code source), du texte.**  
+Il est **bien moins performant** avec des fichiers complexes.  
+Il possède d'ailleurs son propre système de compression.
+
+- On évite les formats "compilés" / "compressés" :
+  - Images
+  - Fichiers et archives compressés (zip etc)
+
+
+- On évite d'inclure les fichiers lourds, redondants, mis à jour fréquemment:
+  - base de données
+  - les fichiers binaires, journaux, résultats de suivi ou données de diagnostic  
+  Ce sont des sorties de votre code, pas le code source lui-même.  
+  Partagez ce type de ficheirs de suivi avec votre équipe via des outils de suivi/partage de fichiers.
+
+
+- On évite d'inclure les fichiers périphériques au code (bibliothèques Python, etc) :  
+  Ces dépendances sont souvent listées dans un fichier texte, et on les installe séparemment.  
+  Vous avez peut-être déjà croisé la commande `pip install -r requirements.txt` ?
 
 ---
 
