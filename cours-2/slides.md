@@ -6,11 +6,11 @@ marp: true
 # 1. Les branches
 
 - Les branches sont comme des "Sauvegarder sous..." pour l'ensemble du dépôt
-    - Sauf qu'on peut les rejoindre/fusionner plus facilement !
-- La branche par défaut s'appelle master
-    - Dans `git status`, la branche `master` doit être affichée dans votre dossier de notes
-- Offre la possibilité de travailler sur différents problèmes en parallèle. Possibilité de travailler sur des problèmes différents en même temps et de changer de tâche rapidement.
-    - Une branche Master
+    - Sauf qu'on peut les joindre/fusionner plus facilement !
+- La branche par défaut s'appelle master (ou main)
+
+- Les branches offrent la possibilité de travailler sur différents problèmes en parallèle :
+    - Une branche principale master
     - Une branche bug 1
     - Une branche bug 2 parce que celui-ci est plus pressé
     - etc...
@@ -21,8 +21,27 @@ marp: true
 
 - **Créer une branche** : `git branch [nom de la branche]`
 - **Se déplacer dans une branche** : `git checkout [nom de la branche]`
-- **Se déplacer et créer une branche en même temps** : `git checkout -b [nom de la branche]`
+- **Créer et se déplacer sur une nouvelle branche en même temps** : `git checkout -b [nom de la branche]`
 - **Fusionner une branche** : `git merge [branche dont on veut les modifications]` (on fusionne toujours depuis la branche réceptrice, celle sur laquelle on veut continuer de travailler ensuite)
+
+## Exercices :
+Tout au long de ces exercices, vérifier et observer les résultats des commandes git status, git log et git diff (le cas échéant).
+- Créer un dossier exercice_cours2
+- Initialiser ce dossier en dépôt Git
+- Enregistrer un premier fichier master.md
+- Créer une branche cheat_sheet dans laquelle sera enregistré le fichier https://training.github.com/downloads/fr/github-git-cheat-sheet.pdf
+
+
+- Créer une branche dev dans laquelle sera créé un fichier texte cours2.md contenant l'URL ci-dessus
+- Modifier ce fichier cours2.md en remplaçant l'URL par un texte de votre choix
+- Enregistrer ce changement
+
+
+- De retour sur la branche principale (master ou main) :
+- Fusionner la branche dev pour intégrer cours2.md à la branche principale
+- Annuler la fusion (tip : git reset [n° commit] --hard)
+
+Des corrections pas à pas sont disponibles dans les [notes de ce cours](https://github.com/vicpsl/cours-git/blob/master/cours-2/notes.md).
 
 ---
 
@@ -34,21 +53,20 @@ marp: true
 
 # 4. Conflits d'historique
 
-1. Copier le fichier xml  [https://github.com/vicpsl/cours-git/blob/master/cours-2/exemple.xml](https://github.com/vicpsl/cours-git/blob/master/cours-2/exemple.xml)
+1. Copier le fichier xml [https://raw.githubusercontent.com/vicpsl/cours-git/master/cours-2/exemple.xml](https://raw.githubusercontent.com/vicpsl/cours-git/master/cours-2/exemple.xml)
 2. Enregistrer ce changement dans git
 3. Changer de branche pour `changement_texte`
-4. Remplir titre et auteur avec le titre de votre livre préféré et auteur préféré
-5. Ajouter une description dans le document TEI
-2. Enregistrer ce changement dans git
+4. Remplir Titre et Auteur avec le titre de votre livre préféré et auteur préféré 
+5. Enregistrer ce changement dans git
 
 ---
 
-# 5.  Conflits d'historique : le professeur change d'avis 
+# 5. Conflits d'historique : le professeur change d'avis 
 
 1. Changer de branche pour `master`
 2. Changer le titre et l'auteur pour "Epigrammes" et "Martial"
-3. Enregistrer le changement
-4. Fusionner avec la branche changement_texte  
+3. Enregistrer le changement de cette branche `master`
+4. Fusionner la branche changement_texte  
 Alors ?
 5. Résolution d'un conflit (simple) :
    1. Ouvrir le fichier (exemple.xml)
@@ -85,5 +103,7 @@ Il y a deux sections dans ce bloc :
              </titleStmt>
    ...
     ~~~
-   3. Enregistrer le changement (git add puis git commit -m "résolution du conflit fichier TEI")
+   3. Enregistrer le changement (git add exemple.xml puis git commit -m "résolution du conflit fichier TEI")
    4. Vérifier le résultat
+
+Des corrections pas à pas sont disponibles dans les [notes de ce cours](https://github.com/vicpsl/cours-git/blob/master/cours-2/notes.md).

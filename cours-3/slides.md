@@ -52,9 +52,10 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 1. Créer un repo "notes-de-cours"
 	- **/!\\ Surtout ne pas cocher initialiser le repository**
 		- Pourquoi ?
-2. Ajouter ce serveur à votre dépôt local
+2. Créer et initialiser un dépôt local "notes-de-cours" correspondant
+3. Ajouter le serveur Github à votre dépôt local
 	- `git remote add origin [adresse du serveur distant GitHub]`
-3. Pour le premier push de synchronisation
+4. Pour le premier push de synchronisation
 	- `git push -u origin master`
 		- Git, envoie ma branche actuelle sur la branche master du serveur origin. Cette branche correspondra à partir de maintenant à celle sur mon dépôt local
         - "-u:" le flag *-u* signifie "upstream", équivalent à '-set-upstream'
@@ -101,4 +102,4 @@ Dans le terminal du dossier d'accueil du dépôt :
 
 - Toujours faire un `git status` en se connectant sur son dossier ou une vérification du status des branches adéquates
 - Suivi d'un `git pull` si vous/un collègue avez travaillé dessus depuis un autre poste ou depuis votre PC
-- Essayez le plus possible de ne pas travailler dans la master mais dans des branches focalisées sur un objectif dès que votre projet commence à grossir
+- Essayez le plus possible de ne pas travailler dans la branche **master** mais dans des branches focalisées sur un objectif dès que votre projet commence à grossir

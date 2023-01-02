@@ -7,6 +7,70 @@
   <title>notes</title>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+  </style>
+  <style type="text/css">
 
 .clearfix {
 *zoom: 1;
@@ -3049,6 +3113,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
         <li><a href="#slide-1">Slide 1</a></li>
         <li><a href="#slide-2">Slide 2</a></li>
         <li><a href="#slide-3">Slide 3</a></li>
+        <li><a href="#slide-6">Slide 6</a></li>
         <li><a href="#slide-7">Slide 7</a></li>
         </ul>
         </div>
@@ -3057,7 +3122,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             <h1 id="slide-1">Slide 1</h1>
             <p>Avec les branches, nous avons vu la capacité de travailler sur des versions alternatives à notre version principale, des sortes d’enregistrer sous. Si l’on compare ce que l’on a vu avec les capacités d’un Dropbox ou d’un Google Drive, quelle fonctionnalité est manquante ?</p>
             <h1 id="slide-2">Slide 2</h1>
-            <p>Heureusement, des entreprises et des structures publiques fournissent des services de ce type. Git peut être utilisé avec des serveurs distants. Il s’agit ensuite de trouver la version qui vous convient, avec les outils qui l’accompagnent. On distingue deux grands concurrents : Github et Gitlab. L’avantage de Gitlab sur github est le caractère en partie OpenSource du logiciel qui le fait tourner (cela veut donc dire qu’on peut l’installer et donc répliquer l’infrastructure sur son propre serveur). L’avantage de github sur gitlab est son adoption par les développeur-ses et son âge.</p>
+            <p>Heureusement, des entreprises et des structures publiques fournissent des services de ce type. Git peut être utilisé avec des serveurs distants. Il s’agit ensuite de trouver la version qui vous convient, avec les outils qui l’accompagnent. On distingue deux grands concurrents : Github et Gitlab. L’avantage de Gitlab sur github est le caractère en partie OpenSource du logiciel qui le fait tourner (cela veut donc dire qu’on peut l’installer et donc répliquer l’infrastructure sur son propre serveur). L’avantage de Github sur Gitlab est son adoption par les développeur-ses et son âge.</p>
             <h1 id="slide-3">Slide 3</h1>
             <p>Faire un dessin permettant de faire comprendre</p>
             <ul>
@@ -3069,13 +3134,34 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             <li><em>fork</em> : Dérivé d’un dépôt d’un-e autre développeur-se</li>
             <li><em>upstream</em> : Par convention, nom d’un second serveur, généralement le serveur source du <em>fork</em></li>
             </ul>
+            <h1 id="slide-6">Slide 6</h1>
+            <div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="co"># Après avoir créé un dépôt Github &quot;notes-de-cours&quot;</span></span>
+            <span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="co"># Créer le dépôt local qui alimentera le nouveau dépôt Github &quot;notes-de-cours&quot;</span></span>
+            <span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="fu">mkdir</span> notes-de-cours</span>
+            <span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="bu">cd</span> notes-de-cours/</span>
+            <span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="fu">git</span> init</span>
+            <span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a><span class="co"># Créer un fichier pour initialiser l&#39;historique du dépôt, par exemple un README:</span></span>
+            <span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a><span class="bu">echo</span> <span class="st">&quot;# notes-de-cours&quot;</span> <span class="op">&gt;&gt;</span> README.md</span>
+            <span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a><span class="fu">git</span> add README.md</span>
+            <span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a><span class="fu">git</span> commit -m <span class="st">&quot;Premier commit&quot;</span></span>
+            <span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a><span class="co"># Contrôles possibles avec : </span></span>
+            <span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a><span class="co"># git status</span></span>
+            <span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a><span class="co"># git log</span></span>
+            <span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a><span class="co"># Créer le lien vers le dépôt Github :</span></span>
+            <span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a><span class="fu">git</span> remote add origin https://github.com/vicpsl/notes-de-cours.git</span>
+            <span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a><span class="co"># Push les données du dépôt local vers Github :</span></span>
+            <span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a><span class="fu">git</span> push -u origin master</span>
+            <span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a><span class="co"># Entrez vos identifiants Github (user &amp; key)</span></span>
+            <span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a><span class="co"># Contrôles possibles avec : </span></span>
+            <span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a><span class="fu">git</span> remote -v</span>
+            <span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a><span class="fu">git</span> branch -a</span></code></pre></div>
             <h1 id="slide-7">Slide 7</h1>
             <ul>
             <li>Cloner le repository de cours</li>
             <li>Essayer de faire une modification</li>
             <li>La commit</li>
             <li>La push</li>
-            <li>Est-ce que cela marche ? (Note: pour moi, cela marche, pour eux, non)</li>
+            <li>Est-ce que cela marche ? (Note : pour moi, cela marche, pour eux, non)</li>
             </ul>
             </div>
     </div>
