@@ -45,6 +45,24 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 	- Gestion de fusion de branches
 	- etc.
 
+## L'authentification sur Github :
+
+Vous pouvez accéder à vos ressources dans GitHub de différentes façons : dans le navigateur, avec GitHub Desktop ou une autre application de bureau, avec l’API ou par le biais de la ligne de commande. Chaque façon d’accéder à GitHub prend en charge différents modes d’authentification.
+
+Outre la connection au compte Github en ligne, nous verrons ici la méthode d'identification pour collaborer via le terminal, grâce au **token**.
+
+Vous pouvez créer un token :  ou simplement en cliquant ici. 
+- en suivant les instructions ci-dessous (documentation) 
+- [Et/ou se rendre ici](https://github.com/settings/tokens) et créer un token.  
+Si vous interagissez simplement avec des référentiels, vous souhaiterez probablement simplement sélectionner "repo" comme "portée" :  
+
+![Token scope](images/token.png)
+
+## Aller plus loin (différents canaux d'identification, stockage des identifiants)
+
+- [Voir la documentation complète](https://docs.github.com/fr/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+- [Documentation succincte (Department of Statistics de Berkeley University)](https://statistics.berkeley.edu/computing/faqs/git-auth)
+
 ---
 
 # 6. Créons un dépôt Github à partir d'un dépôt local
