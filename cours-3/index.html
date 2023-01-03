@@ -3051,7 +3051,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
         <li><a href="#un-dessin-vaut-mieux-quune-explication">3. Un dessin vaut mieux qu’une explication</a></li>
         <li><a href="#le-vocabulaire-des-serveurs-distants-pour-git">4. Le vocabulaire des serveurs distants pour Git</a></li>
         <li><a href="#créons-un-compte-github">5. Créons un compte Github</a></li>
-        <li><a href="#ajoutons-nos-notes-de-cours-en-ligne">6. Ajoutons nos notes de cours en ligne</a></li>
+        <li><a href="#créons-un-dépôt-github-à-partir-dun-dépôt-local">6. Créons un dépôt Github à partir d’un dépôt local</a></li>
         <li><a href="#cloner-un-repository">7. Cloner un repository</a></li>
         <li><a href="#commandes-utiles">8. Commandes utiles</a></li>
         <li><a href="#bonnes-pratiques">9. Bonnes pratiques…</a></li>
@@ -3101,16 +3101,18 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             </ul></li>
             </ul>
             <hr />
-            <h1 id="ajoutons-nos-notes-de-cours-en-ligne">6. Ajoutons nos notes de cours en ligne</h1>
+            <h1 id="créons-un-dépôt-github-à-partir-dun-dépôt-local">6. Créons un dépôt Github à partir d’un dépôt local</h1>
+            <p>Documentation Github en ligne https://docs.github.com/en/get-started et https://docs.github.com/fr/get-started en Français.</p>
             <ol type="1">
-            <li>Créer un repo “notes-de-cours”
+            <li>Sur Github, créer un repo “notes-de-cours” (qui recevra notre dépôt local)
             <ul>
             <li><strong>/!\ Surtout ne pas cocher initialiser le repository</strong>
             <ul>
             <li>Pourquoi ?</li>
             </ul></li>
             </ul></li>
-            <li>Créer et initialiser un dépôt local “notes-de-cours” correspondant</li>
+            <li>Créer et initialiser un dépôt local “notes-de-cours” correspondant<br />
+            <em>En général un dossier/dépôt local avec du code existe déjà</em></li>
             <li>Ajouter le serveur Github à votre dépôt local
             <ul>
             <li><code>git remote add origin [adresse du serveur distant GitHub]</code></li>
@@ -3119,7 +3121,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             <ul>
             <li><code>git push -u origin master</code>
             <ul>
-            <li>Git, envoie ma branche actuelle sur la branche master du serveur origin. Cette branche correspondra à partir de maintenant à celle sur mon dépôt local</li>
+            <li>envoie (<em>push</em>) ma branche actuelle (<em>master</em> ou main) sur la branche <em>master</em> (ou main) du serveur Github, par convention <em>origin</em>. Cette branche correspondra à partir de maintenant à celle sur mon dépôt local</li>
             <li>“-u:” le flag <em>-u</em> signifie “upstream”, équivalent à ‘-set-upstream’</li>
             </ul></li>
             <li><code>git push</code> sera suffisant (pour la branche master !) à partir de maintenant.</li>
@@ -3128,8 +3130,8 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             </ol>
             <hr />
             <h1 id="cloner-un-repository">7. Cloner un repository</h1>
-            <p>Un dépôt git en ligne est peu ou prou la même chose qu’un dépôt git local sauf que vous ne pouvez pas commit directement dessus. Il s’agit de l’archive “.git” de votre dépôt avec la capacité de se connecter et de synchroniser ces informations.</p>
-            <p>Tous les dépôts git ne sont <strong>pas disponible en écriture</strong>. Il se peut qu’un repository git distant soit protégé pour n’être complété que par tel groupe de personne.</p>
+            <p>Un dépôt Git en ligne est peu ou prou la même chose qu’un dépôt local sauf que vous ne pouvez pas commit directement dessus. Il s’agit de l’archive “.git” de votre dépôt avec la capacité de se connecter et de synchroniser ces informations.</p>
+            <p>Tous les dépôts Git ne sont <strong>pas disponible en écriture</strong>. Il se peut qu’un repository Git/Github distant soit protégé pour n’être modifié que par un groupe de personnes.</p>
             <p>Cependant, cela n’empêche pas de les <strong>cloner</strong> et de travailler dessus localement. Vous ne pourrez juste pas modifier le Git distant (remote) si vous n’avez pas accès en écriture.</p>
             <blockquote>
             <p><a href="https://github.com/vicpsl/cours-git">https://github.com/vicpsl/cours-git</a></p>
