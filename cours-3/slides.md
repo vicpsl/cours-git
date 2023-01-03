@@ -97,11 +97,48 @@ Dans le terminal du dossier d'accueil du dépôt :
 
 
 ---
+# 9. Le fichier .gitignore
+
+## Tout n'a pas vocation à être diffusé en ligne
+Git c'est bien, mais on ne veut pas toujours mettre à disposition toutes ses sources. Par exemple, le fichier qui comprend les mots de passe des bases de données, des fichiers caches ou compilés, etc.
+
+Git fournit bien évidemment un outil pour cela : le fichier `.gitignore`.  
+
+Nous avons vu que certains fichiers peuvent poser problème (gros fichiers, images, fichiers xml sources volumineux, etc.) : de tels fichiers dans vos dépôts d'applications pourront être exclus du versioning des dépôts grâce au `.gitignore`. 
+
+## Où le stocker
+
+Ce fichier se nomme forcément `.gitignore` (Il commence donc par un point !). Il se trouve à la racine du dépôt par défaut mais vous pouvez spécifier plusieurs gitignore qui auront toujours un effet sur le dossier courant et ses descendants.
+
+## Syntaxe 
+
+Voici un exemple de fichier .gitignore :
+
+```gitignore
+*.txt
+dossier/
+dossier2/*.jpg
+motdepasse.csv
+```
 
 
-# 9. Bonnes pratiques...
+| Ligne | Effet |
+| ------- | ------ |
+| `*.txt` | Cette ligne permettra d'ignorer tous les fichiers textes où qu'ils soient |
+| `dossier/` | Cette ligne ignorera l'ensemble du contenu de `dossier` et par extension, le dossier lui-même (Git ne conserve pas les dossiers vides) |
+| `dossier2/*.jpg` | Cette ligne ignorera les *.jpg dans le dossier2. Par contre, si dossier2 a des enfants (dossier2/sousdossier1) et des jpg à l'intérieur, il seront versionnés |
+| `motdepasse.csv` | Cet ligne permet d'ignorer le fichier motdepasse.csv dans le dossier principal |
 
-... quand on travaille avec plusieurs postes avec un dépôt distant
+## Aller plus loin 
+
+- [*Ignoring Files*, Github](https://help.github.com/articles/ignoring-files/)
+- [Répertoire d'exemples de gitignore répartis par langages, Github](https://github.com/github/gitignore)
+
+---
+
+# 10. Bonnes pratiques...
+
+... quand on travaille à plusieurs ou sur plusieurs postes avec un dépôt distant
 
 - Toujours faire un `git status` en se connectant sur son dossier ou une vérification du status des branches adéquates
 - Suivi d'un `git pull` si vous/un collègue avez travaillé dessus depuis un autre poste ou depuis votre PC
