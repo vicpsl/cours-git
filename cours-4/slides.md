@@ -1,3 +1,4 @@
+% La collaboration avec Github
 ---
 marp: true
 ---
@@ -12,7 +13,9 @@ marp: true
 - Gestion de bug et de tickets (Issues)
 - Gestion de fusion de branche et de "review"
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 2. Github : les issues
 
@@ -22,7 +25,9 @@ marp: true
 	- on essaye de décrire au mieux le problème. Même si c'est sur notre propre dépôt.
 		- Sinon, on oublie le bug, on revient deux mois plus tard, on sait plus ce que c'est.
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 3. Github : les issues
 
@@ -30,7 +35,9 @@ marp: true
 	- on décrit correctement ce que l'on veut, de manière à pouvoir transférer la charge ou s'en occuper soi-même plus tard
 - une discussion : on essaye de comprendre un morceau de code, etc.
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 4. Github : les issues
 
@@ -38,31 +45,41 @@ marp: true
 - Les issues peuvent avoir des **labels**. Une série de labels par défaut existe, mais on peut tout à fait en ajouter à ses propres dépôts.
 - Les issues peuvent faire l'objet de regroupement dans des **projects** (sans deadline), des **milestones** (objectifs de sortie d'une nouvelle version).
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 5. Github : les issues d'un repo logiciel
 
-![bg right w:100%](images/ehri-issues.png)
+![](images/ehri-issues.png)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 6. Github : les issues d'un repo data
 
 ![](images/canonicallatinlit-issues.png)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 7. Github : un exemple de bonne issue
 
 ![](images/oglfirst1k-issue1548.png)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 8. Github : un exemple de mauvaise issue
 
 ![](images/canonicallatinlit-issue86.png)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 9. Les dépôts dérivés (forks)
 
@@ -70,7 +87,9 @@ marp: true
 - À ce moment-là, on va réaliser un **fork** du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille sur ce repository ensuite localement, comme on travaillerait avec n'importe quel repository.
 - **Note:** Si l'on fait des modifications sur un dépôt d'une autre personne, il est plus respectueux de faire un fork que de télécharger et de créer un nouveau dépôt.
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 10. Collaborer : les *pull requests*
 
@@ -80,7 +99,9 @@ marp: true
 	- Non seulement j'aide la personne et les utilisateurs du repository
 	- Mais en plus j'apparais sur l'historique
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 11. Collaborer : les *pull requests* (Histoire exemple)
 
@@ -88,29 +109,35 @@ marp: true
 	1. J'ouvre une issue qui explique le problème (Typo dans le fichier X, etc.)
 	2. Parce que je veux être encore plus utile, je veux proposer la modification pour que le propriétaire n'ait pas à faire la correction lui-même
 	3. Je fais un fork du dépôt du cours ( https://github.com/vicpsl/cours-git )
-	4. Je crée une branche spécifique et je rentre dessus
-		- Tips : quand on fait une branche pour un objectif particulier, on l'appelle du nom de l'issue pour se souvenir de pourquoi on a créé cette branche
+	4. Je crée une branche spécifique et je rentre dessus  
+		Tip : quand on créé une branche pour un objectif particulier (issue), on référence l'issue pour se souvenir de la raison de la création de la branche
 	5. Je fais la modification et je la commit
 	6. Je push
 	7. Je fais une pull request sur le repository d'origine
 
----
-<!---
+ 
+
+<hr style="border:2px solid gray">
+
 # 12. Exercice
 
-- Aller sur https://github.com/PonteIneptique/canonical-greekLit 
-- Prendre un dossier auteur de https://github.com/PonteIneptique/canonical-greekLit/tree/master/data (Identifié par tlg**** )
-- Dans ce dossier, ouvrir le fichier __cts__.xml
-- Suivant les bonnes pratiques (issues, fork, pull request), proposer la traduction du nom de l'auteur
-- **Bonus**: Ajouter l'identifiant Wikidata
+- Aller sur https://github.com/vicpsl/cours-git
+- En suivant les bonnes pratiques (fork, issues, pull request) :  
+Effectuer (modifier le slides.md de ce cours) et proposer la suppression d'une des lignes suivantes
+  - ligne 1 à supprimer
+  - ligne 2 à supprimer
+  - ligne 3 à supprimer
+  - ligne 4 à supprimer
+  - ligne 5 à supprimer
+  - ligne 6 à supprimer
+  - ligne 7 à supprimer
+  - ligne 8 à supprimer
+  - ligne 9 à supprimer
+  - ligne 10 à supprimer
+  - ligne 11 à supprimer
+  - ligne 12 à supprimer
+  - ligne 13 à supprimer
 
-```xml
-...
-<cpt:structured-metadata
-        xmlns:cpt="http://purl.org/capitains/ns/1.0#"
-        xmlns:dc="http://purl.org/dc/elements/1.1/">
-<dc:identifier>https://www.wikidata.org/wiki/Q2098</dc:identifier>
-</cpt:structured-metadata>
-</ti:textgroup>
-```
--->
+ 
+
+<hr style="border:2px solid gray">

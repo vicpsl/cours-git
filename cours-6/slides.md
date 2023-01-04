@@ -1,77 +1,85 @@
-% Développer et gérer un projet: les bonnes pratiques
+---
+marp: true
+---
 
 
-# 1. Quelles bonnes pratiques ?
+# 1. Question 
+
+Quand on développe avec une équipe, quels risques encourons-nous ?
 
 ---
 
-# 2. Former et se former
+# 2. Réponses
 
-![https://www.commitstrip.com/fr/2016/05/24/training-the-newbie/](https://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Former-ou-ne-pas-former-650-final.jpg){height=60%}
-
----
-
-# 3. Ne jamais travailler sur master.
-
+- Quand on développe avec une équipe, quels risques encourons-nous ?
+	- Introduction d'un bug par la modification d'un équipier
+	- Modification du code qui passe inaperçue (Risque de duplication des efforts)
+	- Erreur dans la manière de modifier le bug
 
 ---
 
-# 4. Une Issue = Une Branche = Une Pull Request
+# 3. Solutions
 
-- Ne jamais, surtout jamais fusionner ses propres PR en équipe
-- Ne pas merge avant que l'intégration continue ait terminé
-
----
-
-# 5. Une fonction = (> 1) test 
-
+- Les *Pulls requests* règlent le problème du code qui passe inaperçu ou
+- Les outils d'intégration continue règlent le problème des modifications et de l'introduction de bug
 
 ---
 
-# 6. Ne pas développer ce qui existe déjà
+# 4. Principe
 
-- Sauf si l'outil fait 150 MO à la place des 10ko que vous avez en tête
-
----
-
-# 7. Améliorer, contribuer 
-
-![https://www.commitstrip.com/fr/2014/05/07/the-truth-behind-open-source-apps/](cours-6/images/Strip-Vision-Open-source-650-final1.jpg){height=60%}
+1. Vérifier à chaque modification que celle-ci n'entraîne pas de bug ou de régression
+2. Vérification décentralisée et disponible pour l'ensemble de l'équipe
+	- contrairement à une batterie de test local, tout le monde peut voir les résultats
+3. Notification de l'ensemble de l'équipe en cas de problème ou de réussite
+4. Un bug trouvé le plus tôt possible est un bug qui ne coûte pas cher.
 
 ---
 
-# 8. Penser à votre moi du futur
+# 5. Principe
 
-- Ille sera tout autant en colère que vos collègues
-
-
----
-
-# 9. Mettez-vous d'accord sur des bonnes pratiques
-
+![bg right width:100%](images/ci.jpg)
 
 ---
 
-# 10 Indenter
+# 6. Les tests
 
-![https://xkcd.com/1695/](cours-6/images/code_quality_2.png)
-
----
-
-# 11. Documenter.
-
-
----
-
-# 12. Documenter.
-
-![http://www.commitstrip.com/fr/2016/07/27/documentation-just-before-vacation/](cours-6/images/Strip-Commentaires-davant-vacances-650-final-2.jpg){height=60%}
+- Tous les langages de programmation avancés ont des logiciels de tests : php, python, java, etc.
+- On distingue plusieurs types de test :
+	- Les tests unitaires : on vérifie qu'un morceau de code particulier a un résultat particulier. Exemple : conjuguer(chanter, je, présent, indicatif): je chante.
+	- Les tests d'intégrations : on vérifie qu'un ensemble de blocs fonctionne bien ensemble. Exemple : si je clique sur le bouton conjuguer, la fonction conjuguer est appelée et je vois le résultat,
+	- etc..
+- Écrire des tests représente une augmentation du temps de travail importante au départ. Cependant, un code testé vous signale tout de suite quand un changement opéré produit un problème. C'est une meilleure manière de découvrir un problème que d'avoir à cliquer sur tous les liens de toutes les pages de votre site.
 
 ---
 
-# Liens
+# 7. Les tests
+
+- Dans certains cas, on peut parler de TDD : Test Driven Development. 
+	- Le principe : On écrit d'abord un test avant d'écrire la fonction.
+	- Écrire le test veut dire que l'on est sûr de ce que l'on veut obtenir. C'est un moyen de se rendre compte de la limite de la compréhension de notre code ou de notre mission.
+	- Lorsque j'écris un fichier XML avec un schéma prédéfini, je fais en fait une sorte de TDD. En soit, j'établis un résultat attend tel que TEI > text > body > div, et si je fais TEI > text > body > lg, une erreur est affichée.
+
+![D'après http://agiledata.org/essays/tdd.html](images/tdd.png)
+
+---
+
+# 8. Les outils : l'exemple de Travis
+
+TravisCI (pour Travis Continuous Integration) est un outil partiellement gratuit qui permet de se connecter avec un dépôt github ou gitlab. En fonction d'une paramétrisation, il lancera l'ensemble des tests fournis et donnera un message.
+
+Encore plus intéressant : en cas de pull request, il vous avertira avant de faire la fusion proposée par vos collègues, directement sur la page github.
+
+---
+
+# 9. Les outils : l'exemple de Travis 
+
+![bg right width:100%](./images/ogl-first1k-pr1765.png)
+
+---
+
+# 10. Les outils : configurer Travis
+
+Dans l'optique du projet, on utilisera la configuration suivante 
 
 
-[Hive Best Practices https://github.com/wearehive/project-guidelines](https://github.com/wearehive/project-guidelines) pour Git
 
-[https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118](https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118) pour le php

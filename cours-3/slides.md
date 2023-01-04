@@ -1,11 +1,14 @@
+% Github
 
-# 1. Ce qu'il manque jusque là
+# 1. Ce qu'il manque jusque-là
 
 - Capacité de sauvegarde distance : dois-je faire une copie dans ma dropbox ?
 - Capacité de travailler en équipe : dois-je faire un git dans ma dropbox et partager le dossier ?
 - etc.
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 2. Git et ses services en ligne
 
@@ -15,13 +18,17 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 - [Gitlab](https://gitlab.com) qui est le concurrent le plus sérieux de github aujourd'hui
 - [Bitbucket](https://bitbucket.org)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 3. Un dessin vaut mieux qu'une explication
 
 ![](images/push-pull.png)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 4. Le vocabulaire des serveurs distants pour Git
 
@@ -33,7 +40,9 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 - *fork* : Dérivé d'un dépôt d'un-e autre développeur-se
 - *upstream* : Par convention, nom d'un second serveur, généralement le serveur source du *fork*
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 5. Créons un compte Github 
 
@@ -45,25 +54,28 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 	- Gestion de fusion de branches
 	- etc.
 
-## L'authentification sur Github :
+### L'authentification sur Github :
 
 Vous pouvez accéder à vos ressources dans GitHub de différentes façons : dans le navigateur, avec GitHub Desktop ou une autre application de bureau, avec l’API ou par le biais de la ligne de commande. Chaque façon d’accéder à GitHub prend en charge différents modes d’authentification.
 
 Outre la connection au compte Github en ligne, nous verrons ici la méthode d'identification pour collaborer via le terminal, grâce au **token**.
 
-Vous pouvez créer un token :  ou simplement en cliquant ici. 
-- en suivant les instructions ci-dessous (documentation) 
-- [Et/ou se rendre ici](https://github.com/settings/tokens) et créer un token.  
+Vous pouvez créer un token :
+
+- en suivant les instructions ci-dessous (Aller plus loin : voir la documentation)
+- [Et/ou se rendre ici](https://github.com/settings/tokens) et créer un token.    
 Si vous interagissez simplement avec des référentiels, vous souhaiterez probablement simplement sélectionner "repo" comme "portée" :  
 
-![Token scope](images/token.png)
+![](images/token.png)
 
-## Aller plus loin (différents canaux d'identification, stockage des identifiants)
+### Aller plus loin (différents canaux d'identification, stockage des identifiants)
 
 - [Voir la documentation complète](https://docs.github.com/fr/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 - [Documentation succincte (Department of Statistics de Berkeley University)](https://statistics.berkeley.edu/computing/faqs/git-auth)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 6. Créons un dépôt Github à partir d'un dépôt local
 
@@ -83,26 +95,44 @@ Documentation Github en ligne https://docs.github.com/en/get-started et https://
 	- `git push` sera suffisant (pour la branche master !) à partir de maintenant.
     - Toute *nouvelle_branche* locale nécessitera `git push -u origin nouvelle_branche`
 
----
+ 
 
-# 7. Cloner un repository
+<hr style="border:2px solid gray">
+
+# 7. Cloner un dépôt (*repository*)
+
+### Intéractions avec un dépôt :
 
 Un dépôt Git en ligne est peu ou prou la même chose qu'un dépôt local sauf que vous ne pouvez pas commit directement dessus. Il s'agit de l'archive ".git" de votre dépôt avec la capacité de se connecter et de synchroniser ces informations. 
 
-Tous les dépôts Git ne sont **pas disponible en écriture**. Il se peut qu'un repository Git/Github distant soit protégé pour n'être modifié que par un groupe de personnes.
+- Tous les dépôts Git ne sont **pas disponible en écriture** :  
+il se peut qu'un repository Git/Github distant soit protégé pour n'être modifié que par un groupe défini de personnes.
 
-Cependant, cela n'empêche pas de les **cloner** et de travailler dessus localement. Vous ne pourrez juste pas modifier le Git distant (remote) si vous n'avez pas accès en écriture.
+
+- Cependant, cela n'empêche pas de les **cloner** et de travailler dessus localement.  
+Vous ne pourrez juste pas modifier le Git distant (remote) si vous n'avez pas accès en écriture.
+
+### Cloner un dépôt :
+
+- Se rendre sur le dépôt :
 
 > [https://github.com/vicpsl/cours-git](https://github.com/vicpsl/cours-git)
 
+- Copier son URL (mode https) :
+
 ![URL source du dépôt à cloner](images/cloneURL.png)
 
-Dans le terminal du dossier d'accueil du dépôt :  
+
+- Dans le terminal du dossier d'accueil du dépôt local :
+
+
 `git clone https://github.com/vicpsl/cours-git.git`
 
----
+ 
 
-# 8. Commandes utiles
+<hr style="border:2px solid gray">
+
+# 8. Commandes utiles (statut et intéractions)
 
 - `git remote -v` : répertorie vos connexions distantes avec d'autres dépôts, incluant leurs URLs
 - `git remote show origin` ou `git remote show upstream` : sortie détaillée d'un dépôt distant, dont la liste des branches associées au dépôt distant et celles en local liées pour les pull et les push
@@ -113,22 +143,26 @@ Dans le terminal du dossier d'accueil du dépôt :
 - `git push -u origin master` (voir 6) : **premier** push de synchronisation d'une branche locale vers le dépôt distant
 - `git push` (voir 6) : push de synchronisation d'une branche locale vers le dépôt distant
 
+ 
 
----
+<hr style="border:2px solid gray">
+
+
 # 9. Le fichier .gitignore
 
-## Tout n'a pas vocation à être diffusé en ligne
+### Tout n'a pas vocation à être diffusé en ligne / inclus dans un dépôt
 Git c'est bien, mais on ne veut pas toujours mettre à disposition toutes ses sources. Par exemple, le fichier qui comprend les mots de passe des bases de données, des fichiers caches ou compilés, etc.
 
 Git fournit bien évidemment un outil pour cela : le fichier `.gitignore`.  
 
 Nous avons vu que certains fichiers peuvent poser problème (gros fichiers, images, fichiers xml sources volumineux, etc.) : de tels fichiers dans vos dépôts d'applications pourront être exclus du versioning des dépôts grâce au `.gitignore`. 
 
-## Où le stocker
+### Où stocker le `.gitignore`
 
-Ce fichier se nomme forcément `.gitignore` (Il commence donc par un point !). Il se trouve à la racine du dépôt par défaut mais vous pouvez spécifier plusieurs gitignore qui auront toujours un effet sur le dossier courant et ses descendants.
+- Ce fichier se nomme forcément `.gitignore` (Il commence donc par un point !).
+- Il se trouve à la racine du dépôt par défaut mais vous pouvez spécifier plusieurs .gitignore qui auront toujours un effet sur le dossier courant et ses descendants.
 
-## Syntaxe 
+### Syntaxe 
 
 Voici un exemple de fichier .gitignore :
 
@@ -147,17 +181,26 @@ motdepasse.csv
 | `dossier2/*.jpg` | Cette ligne ignorera les *.jpg dans le dossier2. Par contre, si dossier2 a des enfants (dossier2/sousdossier1) et des jpg à l'intérieur, il seront versionnés |
 | `motdepasse.csv` | Cet ligne permet d'ignorer le fichier motdepasse.csv dans le dossier principal |
 
-## Aller plus loin 
+
+### Aller plus loin 
 
 - [*Ignoring Files*, Github](https://help.github.com/articles/ignoring-files/)
 - [Répertoire d'exemples de gitignore répartis par langages, Github](https://github.com/github/gitignore)
 
----
+ 
+
+<hr style="border:2px solid gray">
 
 # 10. Bonnes pratiques...
+  
+ 
 
 ... quand on travaille à plusieurs ou sur plusieurs postes avec un dépôt distant
 
 - Toujours faire un `git status` en se connectant sur son dossier ou une vérification du status des branches adéquates
 - Suivi d'un `git pull` si vous/un collègue avez travaillé dessus depuis un autre poste ou depuis votre PC
 - Essayez le plus possible de ne pas travailler dans la branche **master** mais dans des branches focalisées sur un objectif dès que votre projet commence à grossir
+
+ 
+
+---

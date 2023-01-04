@@ -1,69 +1,72 @@
-Développer et gérer un projet : les bonnes pratiques 
-===
+# Slide 1
 
-### Quelles bonnes pratiques
+Quand on développe avec une équipe, quels risques encoure-t-on ?
 
-Si le développement et la gestion d'un projet vous semblent être l'apanage des futures ingénieures, conservatrices et développeuses qui sont là, sachez bien qu'aujourd'hui, on demande aux chercheurs et chercheuses de savoir gérer leur projet. Plus encore, savoir gérer un projet, y compris personnel, est primordial si vous souhaitez être assuré de sa fonctionnalité et de son expansion dans un futur plus ou moins proche.
+# Slide 2
 
-Bien sûr, je vous renvoie à la [conférence de Bridget Almas](https://www.youtube.com/watch?v=bhlBwnN_Pf4) d'octobre dernier qui est disponible sur YouTube sur la chaîne de l'École.
+Les risques principaux dans la collaboration sont:
+- l'introduction d'un bug par un-e collègue
+- l'introduction d'une régression, c'est à dire un retour en arrière sur certaines portions de code qui peuvent entraîner un bug
+- la multiplication des efforts : plusieurs personnes tentent de régler le même problème
+- la mauvaise gestion ou correction d'un bug
 
-Il n'y a pas grand-chose à dire à part lister ces bonnes pratiques. Pour chacune de ces bonnes pratiques, je vous laisserai poser des questions le cas échéant.
+# Slide 3
 
-### Former et se former
+Les solutions sont bien évidemment les pull requests : même dans une situation de travail sur un seul repository à plusieurs, il est important de ne pas faire de merge locales sur la master, mais de proposer ces changements à vos collègues à travers l'usage de pulls requests internes.
 
-Que vous soyez développeuse, ingénieure, conservatrice, etc, la formation technique, si vous persistez dans le numérique, est primordial. Les technologies changent vite, très vite. Je ne parle pas d'apprendre de nouveaux langages toutes les semaines, je n'en connais moi-même que 5 ou 6 et n'en utilisent qu'un ou deux quotidiennement. 
+Une autre solution complémentaire est l'usage d'outils d'intégration continue qui surveille et évalue les modifications de code.
 
-Mais se former aux évolutions techniques, faire de la veille sur ce qui peut changer, en utilisant twitter ou reddit par exemple, est primordial dans nos métiers.
+# Slide 4
 
-### Ne jamais travailler sur master
+L'intégration continue sert entre autres à lancer une batterie de tests développés par l'équipe de développement. Ces tests visent à vérifier le bon fonctionnement d'une base de code. Il est recommandé d'écrire un ensemble de tests génériques pour des applications, puis, lorsque des utilisations font émerger des bugs particuliers, d'écrire de nouveaux tests qui permettent de vérifier qu'un bug ne se reproduira pas plus tard.
 
-Que l'on soit seul ou à plusieurs, travailler sur le master signifie que votre changement sera plus ou moins définitif, sauf à passer un mauvais quart d'heure à produire une régression dans les commits.
+Exemple : J'ai une application web qui fonctionne très bien, avec une batterie de tests qui vérifie que tout fonctionne. Cette application web permet d'afficher des fichiers TEI en html. Une utilisatrice se rend compte du non-affichage des titres imbriqués dans des divs de deuxième niveau. En corrigeant le bug, j'écris un nouveau test qui vérifiera que l'on n’introduira pas de régression plus tard.
 
-Évitez donc.
+Par ailleurs, l'intégration continue permet aussi de vérifier de manière décentralisée et ouverte (au moins aux collègues) que ces tests fonctionnent bien. Il est important de mettre à disposition ces résultats sur des environnements neutres. Cela permet d'éviter des situations où un-e collègue lancerait ses tests incorrectement sur sa machine.
 
-### Une issue = une branche = une pull request
+Généralement, ces outils notifient l'ensemble de l'équipe et commentent les pull requests avec un statut qui informe du succès ou de l'échec des tests.
 
-Bien que cela ne soit pas toujours aussi simple et aussi bien découpé, il faut au maximum essayer de respecter cela. On ne sait jamais quelle réception aura sa pull request, et il est plus que probable quand on essaie de corriger trop de choses à la fois que certaines ne soient pas acceptées par vos collègues.
+L'un des principes phares de l'intégration continue est qu'un bug trouvé tôt est un bug qui coûte moins cher. 
 
-Autres choses : on ne fusionne pas sa propre pull request (sauf quand on travaille seul bien sûr) et quoiqu'il arrive, on attend toujours les résultats de l'intégration continue.
+Enfin, il arrive que, pour certains logiciels ou corpus, l'intégration continue intègre une partie de compilation ou d'export. Le service sera alors responsable de la transformation des ressources à chaque exécution.
 
-### Une fonction : + d'un test
+# Slide 5
 
-Toute fonction codée doit être vérifiée par au moins un test. Je vous laisse vous intéresser aux principes du *coverage*, notamment en python et langage de programmation. Certains outils vous permettent en effet de vérifier, au lancement des tests, quelles lignes de codes sont exécutées et lesquelles ne le sont jamais. Cela permet de se protéger pour partie d'oublis dans les tests.
+Regarder l'image
 
-### Ne pas développer ce qui existe déjà
+# Slide 6
 
-Il faut éviter un maximum de réinventer la roue. Cela dit, cela ne veut pas dire que ce qui existe est forcément mieux. Faites très attention à la tentation constante des CMS par exemple. Les CMS vous offrent une solution rapide, mais sont par exemple de piètres outils quand il s'agit de conservation des données.
+Les tests sont des éléments essentiels du développement informatique. Ils permettent de s'assurer de la solidité de votre application.
 
-### Améliorer, contribuer
+On distingue plusieurs types de test : 
+- les tests dits unitaires : on vérifie qu'un morceau de code particulier a un résultat correct. On exécute ces morceaux de codes hors contexte. Par exemple, si j'ai deux fonctions, une pour afficher la page web et l'autre pour importer des données, je vais tester chacune de ces fonctions individuellement.
+- les tests d'intégrations : on vérifie qu'un ensemble de blocs fonctionnent bien ensemble. Généralement, en développement web, cela se traduit par la simulation d'action sur une page web en vérifiant le résultat.
+- etc.
 
-Poser des questions, ouvrir des bugs, proposer des corrections, aider à documenter. Autant de moyens de contribuer à des projets open source. 
+Cela dit, écrire des tests représente une très grande augmentation du temps de travail. Je compte environ une heure de test et de documentation minimum par heure de programmation. Mais un code testé vous signale tout de suite si un changement opéré sur votre application provoque des bugs, et où. Dans le cadre d'applications importantes de valorisation, il peut être extrêmement important d'utiliser de telles ressources.
 
-Je me permets de noter que dans le cadre du devoir, je vous conseille d'ouvrir des issues si des morceaux de documentations n'étaient pas clairs.
+# Slide 7
 
-### Toujours penser à votre moi du futur
+Dans certains cas, on peut parler de Test Driven Development, ou développement à partir de tests.
 
-Je vous ai parlé de ce concept. Je le remets là. Si vous ouvrez un bug en disant "la page X bugue" sans plus de détails, c'est comme noté sur votre mémoire de 100 pages en couverture "faute d'orthographe" sans plus de précision. Imaginez passer 1 mois et retomber sur cette note manuscrite.
+L'objectif n'est non pas d'écrire des tests a posteriori, mais de les écrire avant d'écrire son propre code. Cela signifie que :
+- votre architecture est claire, pensée et solide
+- vous connaissez les utilisations de chacun de vos blocs
 
-### Mettez-vous d'accord sur les bonnes pratiques
+Pour prendre un exemple, lorsque l'on écrit son XML en utilisant un schéma RelaxNG ou équivalent, on a écrit sa batterie de tests en amont puisque le schéma a été prévu d'abord.
 
-Les bonnes pratiques, certaines sont communes, certaines sont différentes. La première chose que vous devez faire dans un projet une fois le projet établi, c'est établir la liste des choses à faire et ne pas faire. Après quelques projets avec une même équipe, tout cela roulera tranquillement.
+Prendre l'image, essayer de montrer la différence avec du TDD.
 
-### Indenter
+# Slide 8
 
-Écrire du code propre, indenter. Il y a deux ans, j'avais réservé 2 points sur 10 sur la propreté du code sur un devoir. Il est insupportable de lire un code qui est mal écrit. Vous n'oseriez pas rendre une réponse d'appel à projets sur des serviettes de fast food ? N'osez pas rendre du code bien espacé.
+L'outil que nous utiliserons dans ce cours pour l'intégration continue sera Travis. C'est un outil qui a l'avantage d'être gratuit pour les logiciels open source, documenté et bien intégré avec github. En fonction d'un fichier de paramètres, il lancera l'ensemble des scripts fournis.
 
-### Documenter
+L'un des intérêts de le connecter à github est de fournir un compte-rendu directement sur les pulls requests. Regardons plutôt l'exemple qui suit :
 
-Documenter cela signifie :
-- expliquer pourquoi vous avez écrit certaines lignes de code
-- à quoi servent vos fonctions et variables
-- comment installer votre logiciel ou site
-- comment utiliser vos outils
-- mettre des messages de commits clairs.
+# Slide 9
 
-La documentation est certainement la chose la plus difficile à faire, car en tant que producteur et productrice, nous connaissons notre code. Je recommande ici de trouver des camarades avec qui partager vos repository et essayer de lire et critiquer la documentation de l'autre.
+# Slide 10
 
-### Documenter
+Prendre le fichier ligne par ligne, essayez de leur faire comprendre.
 
-Pour finir, voici un exemple de ce qu'il ne faut pas faire : écrire en documentation quelque chose qui n'aide en rien à la compréhension.
+Si bonne compréhension, voire avec le fichier complet https://github.com/PerseusDL/canonical-latinLit/blob/master/.travis.yml
