@@ -7,7 +7,7 @@
 
 # 2. Former et se former
 
-![https://www.commitstrip.com/fr/2016/05/24/training-the-newbie/](https://www.commitstrip.com/wp-content/uploads/2016/05/Strip-Former-ou-ne-pas-former-650-final.jpg){height=60%}
+![](images/Strip-Former-ou-ne-pas-former-650-final.jpg)
 
 ---
 
@@ -36,7 +36,7 @@
 
 # 7. Améliorer, contribuer 
 
-![https://www.commitstrip.com/fr/2014/05/07/the-truth-behind-open-source-apps/](cours-6/images/Strip-Vision-Open-source-650-final1.jpg){height=60%}
+![](images/Strip-Vision-Open-source-650-final1.jpg)
 
 ---
 
@@ -54,7 +54,7 @@
 
 # 10 Indenter
 
-![https://xkcd.com/1695/](cours-6/images/code_quality_2.png)
+![](images/code_quality_2.png)
 
 ---
 
@@ -65,7 +65,7 @@
 
 # 12. Documenter.
 
-![http://www.commitstrip.com/fr/2016/07/27/documentation-just-before-vacation/](cours-6/images/Strip-Commentaires-davant-vacances-650-final-2.jpg){height=60%}
+![](images/Strip-Commentaires-davant-vacances-650-final-2.jpg)
 
 ---
 
