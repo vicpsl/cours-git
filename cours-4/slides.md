@@ -121,7 +121,7 @@ marp: true
 
 # 12. Exercice
 
-- Aller sur https://github.com/vicpsl/cours-git
+- Aller sur https://github.com/vicpsl/cours-git-modifiable (lorsque l'enseignant vous aura donné accès)
 - En suivant les bonnes pratiques (fork, issues, pull request) :  
 Effectuer (modifier le slides.md de ce cours) et proposer la suppression d'une des lignes suivantes
   - ligne 1 à supprimer
