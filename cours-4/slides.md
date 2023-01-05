@@ -1,4 +1,4 @@
-% La collaboration avec Github
+
 ---
 marp: true
 ---
