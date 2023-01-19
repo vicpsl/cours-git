@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/manifest.json",
+  "@id": "https://github.com/vicpsl/cours-git/blob/master/Test.json",
   "@type": "sc:Manifest",
   "label": "Cologny, Fondation Martin Bodmer, Cod. Bodmer 15",
   "metadata": [
