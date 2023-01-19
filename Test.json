@@ -1,174 +1,152 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
   "@id": "https://github.com/vicpsl/cours-git/blob/master/Test.json",
-  "@type": "sc:Manifest",
-  "label": "Cologny, Fondation Martin Bodmer, Cod. Bodmer 15",
+  "label": "BnF, département Arsenal, RESERVE 4-BL-4249",
+  "attribution": "Bibliothèque nationale de France",
+  "license": "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
+  "logo": "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
+  "related": "https://gallica.bnf.fr/ark:/12148/bpt6k8533378",
+  "seeAlso": [
+    "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/bpt6k8533378"
+  ],
+  "description": "Tresplaisante et recreative hystoire du trespreulx et vaillant chevallier Perceval le Galloys, jadis chevallier de la Table ronde. Lequel acheva les adventures du Sainct Graal . Avec aulchuns faictz belliqueulx du noble chevalier Gauvain et aultres chevalliers estans au temps du noble roy Artus, non au paravant imprime",
   "metadata": [
     {
-      "label": "Location",
-      "value": "Cologny"
+      "label": "Repository",
+      "value": "Bibliothèque nationale de France"
     },
     {
-      "label": "Collection Name",
-      "value": "Fondation Martin Bodmer"
+      "label": "Digitised by",
+      "value": "Bibliothèque nationale de France"
+    },
+    {
+      "label": "Source Images",
+      "value": "https://gallica.bnf.fr/ark:/12148/bpt6k8533378"
+    },
+    {
+      "label": "Metadata Source",
+      "value": "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/bpt6k8533378"
     },
     {
       "label": "Shelfmark",
-      "value": "Cod. Bodmer 15"
+      "value": "Bibliothèque nationale de France, département Arsenal, RESERVE 4-BL-4249"
     },
     {
-      "label": "Document Type",
-      "value": "Manuscript"
+      "label": "Title",
+      "value": "Tresplaisante et recreative hystoire du trespreulx et vaillant chevallier Perceval le Galloys, jadis chevallier de la Table ronde. Lequel acheva les adventures du Sainct Graal . Avec aulchuns faictz belliqueulx du noble chevalier Gauvain et aultres chevalliers estans au temps du noble roy Artus, non au paravant imprime"
     },
     {
-      "label": "DOI",
-      "value": "10.5076/e-codices-fmb-cb-0015"
+      "label": "Date",
+      "value": "1530"
     },
     {
-      "label": "Title (English)",
-      "value": "Jean Bagnyon, Fierabras in prose"
+      "label": "Language",
+      "value": [
+        {
+          "@value": "français moyen"
+        },
+        {
+          "@value": "français moyen "
+        }
+      ]
     },
     {
-      "label": "Material",
-      "value": "Paper"
+      "label": "Format",
+      "value": [
+        {
+          "@value": "IV-220 f. : car. goth., titre rouge et noir, avec encadrement gr., fig. ; in-folio"
+        },
+        {
+          "@value": "Nombre total de vues :  465"
+        }
+      ]
     },
     {
-      "label": "Date of Origin (English)",
-      "value": "last third of the 15th century"
+      "label": "Relation",
+      "value": "Notice d'ensemble : http://catalogue.bnf.fr/ark:/12148/cb30925590q"
     },
     {
-      "label": "Number of Pages",
-      "value": "III + 117 + II"
+      "label": "Relation",
+      "value": "Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb171503036"
     },
     {
-      "label": "Dimensions",
-      "value": "29.5 x 21.5 cm"
+      "label": "Relation",
+      "value": "Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb30925590q"
     },
     {
-      "label": "Online Since",
-      "value": "2018-03-22"
-    },
-    {
-      "label": "Summary (English)",
-      "value": "This paper manuscript contains the prose version of the heroic epic <i>Fierabras</i> by Jean Bagnyon (1412-1497). As a lawyer in Lausanne, he wrote this adaptation around 1465-1470 at the request of Henri Bolomier, Canon of that same city (f. <a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/117v\">117v</a>). Divided into three books, the work begins with an outline of the history of the kings of France up to Charlemagne (Book I: f. <a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/7v/0/Sequence-1783\">7v</a>-<a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/19r/0/Sequence-1783\">19r</a>), followed by the history of the “merveilleux et terrible“ giant Fierabras (Book II: f. <a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/19v/0/Sequence-1783\">19v</a>-<a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/93v/0/Sequence-1783\">93v</a>), and a story about the Spanish War according to <i>Turpin</i> (Book III: f. <a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/94r/0/Sequence-1783\">94r</a>-<a href=\"https://www.e-codices.unifr.ch/en/fmb/cb-0015/117v\">117v</a>). This copy and the Bibliothèque de Genève’s copy (Ms. fr. 188) are the only two handwritten witnesses of this text, which experienced great success in print from the 15th century onward (1st printed edition by Adam Steinschaber in Geneva in 1478)."
-    },
-    {
-      "label": "Persons",
-      "value": "Author: Bagnyon, Jean; Bookbinder: Duru, Hippolyte; Former possessor: Firmin-Didot, Ambroise"
-    },
-    {
-      "label": "Century",
-      "value": "15th century"
-    },
-    {
-      "label": "Text Language",
-      "value": "French"
-    }
-  ],
-  "description": [
-    {
-      "@value": "This paper manuscript contains the prose version of the heroic epic Fierabras by Jean Bagnyon (1412-1497). As a lawyer in Lausanne, he wrote this adaptation around 1465-1470 at the request of Henri Bolomier, Canon of that same city (f. 117v). Divided into three books, the work begins with an outline of the history of the kings of France up to Charlemagne (Book I: f. 7v-19r), followed by the history of the “merveilleux et terrible“ giant Fierabras (Book II: f. 19v-93v), and a story about the Spanish War according to Turpin (Book III: f. 94r-117v). This copy and the Bibliothèque de Genève’s copy (Ms. fr. 188) are the only two handwritten witnesses of this text, which experienced great success in print from the 15th century onward (1st printed edition by Adam Steinschaber in Geneva in 1478).",
-      "@language": "en"
-    }
-  ],
-  "license": "http://creativecommons.org/licenses/by-nc/4.0/",
-  "attribution": "e-codices - Virtual Manuscript Library of Switzerland",
-  "logo": "https://www.e-codices.ch/img/logo-for-iiif-manifest.png",
-  "service": [
-    {
-      "@context": "https://www.w3.org/ns/webmention",
-      "@id": "https://www.e-codices.unifr.ch/webmention/receive",
-      "profile": "https://www.w3.org/ns/webmention",
-      "label": "e-codices Webmention Service"
-    }
-  ],
-  "related": "https://www.e-codices.ch/en/list/one/fmb/cb-0015",
-  "within": "https://www.e-codices.ch/en/list/fmb",
-  "seeAlso": [
-    {
-      "@id": "https://www.e-codices.unifr.ch/xml/tei_published/fmb-cb-0015_Vielliard.xml",
-      "@format": "application/tei+xml"
+      "label": "Type",
+      "value": "Livre"
     }
   ],
   "sequences": [
     {
-      "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/sequence/Sequence-1783.json",
-      "@type": "sc:Sequence",
-      "label": [
-        {
-          "@value": "Standardabfolge",
-          "@language": "de"
-        },
-        {
-          "@value": "Normal Sequence",
-          "@language": "en"
-        },
-        {
-          "@value": "Séquence normale",
-          "@language": "fr"
-        },
-        {
-          "@value": "Sequenza normale",
-          "@language": "it"
-        }
-      ],
       "canvases": [
         {
-          "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/canvas/fmb-cb-0015_e001.json",
-          "@type": "sc:Canvas",
-          "label": "Front cover",
-          "height": 8176,
-          "width": 6132,
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f1",
+          "label": "plat sup.",
+          "height": 4353,
+          "width": 3210,
           "images": [
             {
-              "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/annotation/fmb-cb-0015_e001.json",
-              "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/canvas/fmb-cb-0015_e001.json",
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f1",
               "resource": {
-                "@id": "https://www.e-codices.unifr.ch/loris/fmb/fmb-cb-0015/fmb-cb-0015_e001.jp2/full/full/0/default/jpg",
-                "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 8176,
-                "width": 6132,
                 "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://www.e-codices.unifr.ch/loris/fmb/fmb-cb-0015/fmb-cb-0015_e001.jp2",
-                  "profile": "http://iiif.io/api/image/2/level2.json"
-                }
-              }
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f1"
+                },
+                "height": 4353,
+                "width": 3210,
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f1/full/full/0/native.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@type": "oa:Annotation"
             }
-          ]
+          ],
+          "thumbnail": {
+            "@id": "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f1.thumbnail"
+          },
+          "@type": "sc:Canvas"
         },
         {
-          "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/canvas/fmb-cb-0015_e005.json",
-          "@type": "sc:Canvas",
-          "label": "Front paste-down",
-          "height": 8176,
-          "width": 6132,
+          "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f2",
+          "label": "contreplat sup.",
+          "height": 4346,
+          "width": 3146,
           "images": [
             {
-              "@id": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/annotation/fmb-cb-0015_e005.json",
-              "@type": "oa:Annotation",
               "motivation": "sc:painting",
-              "on": "https://www.e-codices.unifr.ch/metadata/iiif/fmb-cb-0015/canvas/fmb-cb-0015_e005.json",
+              "on": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f2",
               "resource": {
-                "@id": "https://www.e-codices.unifr.ch/loris/fmb/fmb-cb-0015/fmb-cb-0015_e005.jp2/full/full/0/default/jpg",
-                "@type": "dctypes:Image",
                 "format": "image/jpeg",
-                "height": 8176,
-                "width": 6132,
                 "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://www.e-codices.unifr.ch/loris/fmb/fmb-cb-0015/fmb-cb-0015_e005.jp2",
-                  "profile": "http://iiif.io/api/image/2/level2.json"
-                }
-              }
+                  "profile": "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+                  "@context": "http://iiif.io/api/image/1/context.json",
+                  "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f2"
+                },
+                "height": 4346,
+                "width": 3146,
+                "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f2/full/full/0/native.jpg",
+                "@type": "dctypes:Image"
+              },
+              "@type": "oa:Annotation"
             }
-          ]
-        },
-        ]
+          ],
+          "thumbnail": {
+            "@id": "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f2.thumbnail"
+          },
+          "@type": "sc:Canvas"
+        }
+      ],
+      "label": "Current Page Order",
+      "@type": "sc:Sequence",
+      "@id": "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/sequence/default"
     }
   ],
-  "structures": []
+  "thumbnail": {
+    "@id": "https://gallica.bnf.fr/ark:/12148/bpt6k8533378.thumbnail"
+  },
+  "@type": "sc:Manifest",
+  "@context": "http://iiif.io/api/presentation/2/context.json"
 }
