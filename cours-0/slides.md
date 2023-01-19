@@ -1,3 +1,4 @@
+% Introduction à Git
 ---
 marp: true
 theme: chartes
@@ -21,7 +22,7 @@ Victor Boby
 
 # Devoir
 
-- Création de set de données ou exercice en équipe sous la forme d'un dépôt GitHub.
-- Modalités à préciser
+- Création de set de données HTR en équipes sous la forme d'un dépôt GitHub.
+- Modalités : https://docs.google.com/document/d/1JIpAUSxpJg3DwjQrpogxDnAdIeMin-UDr1-U9ERvq3Y/edit#
 - En équipe de 3 à 4 personnes
-- Rendu date TBD
+- Date de rendu : 31 mars 2023
