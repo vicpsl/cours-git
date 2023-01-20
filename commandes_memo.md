@@ -102,7 +102,7 @@ Si nos mises à jour ne sont pas achevées ou complètes, on peut les mettre de 
 Suppression d'une branche :
 Git ne vous autorisera pas à supprimer la branche sur laquelle vous êtes, il faut se déplacer sur une autre (en général la branche principale de travail : dev ou master/main)  
 - **Supprimer localement** : `git branch -d [nom branche locale]`
-- **Supprimer dépôt disatnt** : `git push origin --delete [nom branche distante]`
+- **Supprimer dépôt distant** : `git push origin --delete [nom branche distante]`
 - **Forcer la suppression d'une branche non propre** (non *pushée* ou *mergée*) : remplacer -d par -D
 
 
