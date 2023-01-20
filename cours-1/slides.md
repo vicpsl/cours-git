@@ -1,3 +1,5 @@
+% Git : Historique, commandes de base
+
 ---
 marp: true
 
@@ -12,7 +14,7 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 # 1. Problème
 
-![bg right:40% w:100%](images/motivation1.png)
+![](images/motivation1.png)
 
 <div style="page-break-after: always;"></div>
 
@@ -20,7 +22,7 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 # 2. Problème
 
-![bg right h:600px](images/lineofcomm.jpg)
+![](images/lineofcomm.jpg)
 
 ---
 
@@ -28,7 +30,7 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 À partir de ces documents donc, d'après vous, quels besoins éprouvent les utilisateur-rice-s ?
 
-![bg right h:400px](images/motivation2.png)
+![](images/motivation2.png)
 
 ---
 
@@ -73,7 +75,7 @@ On distingue trois "états" des fichiers
 	- Appelée *staging area*, ou *stage*
 - un état archivé : le fichier a subi des modifications enregistrées et n'a pas été modifié depuis lors.
 
-![bg right:40% w:100%](images/stages.png)
+![](images/stages.png)
 
 ---
 
@@ -96,7 +98,7 @@ On distingue trois "états" des fichiers
 
 # 9. Importance des messages
 
-![bg right w:100%](images/git_commit.png)
+![](images/git_commit.png)
 
 ---
 

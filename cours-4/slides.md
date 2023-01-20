@@ -13,6 +13,11 @@ marp: true
 - Gestion de bug et de tickets (Issues)
 - Gestion de fusion de branche et de "review"
 
+**NB :** pour suivre les événements relatifs à un dépôt, se rendre sur le repo Github et cliquer sur **Watch** en haut à droite.
+Choisir les notifications souhaitées.
+
+![](images/fork.png)
+
  
 
 <hr style="border:2px solid gray">
@@ -87,17 +92,51 @@ marp: true
 - À ce moment-là, on va réaliser un **fork** du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille sur ce repository ensuite localement, comme on travaillerait avec n'importe quel repository.
 - **Note:** Si l'on fait des modifications sur un dépôt d'une autre personne, il est plus respectueux de faire un fork que de télécharger et de créer un nouveau dépôt.
 
+Pour réaliser un **fork**, se rendre sur le repo Github original et cliquer sur **fork** en haut à droite.
+![](images/fork.png)
+
+
  
 
 <hr style="border:2px solid gray">
 
-# 10. Collaborer : les *pull requests*
+# 10. Collaborer : les *pull requests* ('PR')
 
 - Une *pull request* (Vocabulaire de *github*) est une demande d'autorisation de contribution à un dépôt.
 - Une pull request se fait entre deux branches, comme un merge. Cependant, cela peut être deux branches de deux forks.
 - Contribuer à un repository ? 
 	- Non seulement j'aide la personne et les utilisateurs du repository
 	- Mais en plus j'apparais sur l'historique
+
+A réaliser sur Github directement :
+NB : lorsqu'une mise à jour a été soumise, des pull-requests sont créées (onglet **Pull requests**) avec leur id, ici : "#34".  
+On peut également en créer directement sur Github (**New pull request**).
+
+![](images/pullrequest1.png)
+
+Dans une **Pull requests**, il y a 4 onglets :
+
+- **Conversation** : les échanges relatifs à la pull request et ses éventuelles mises à jour successives
+- **Commits** : la liste des commits inclus dans la pull request, ou l'on peut voir le code de chacun d'entre eux
+- **Checks** : validations optionnelles sur le dépôt (https://docs.github.com/fr/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks)
+- **Files Changed** : une visualisation des ajouts, modifications et suppressions entre le code d'origine sur lequel on souhaite intégrer les changements et le code inclus dans la pull request.
+
+NB : la PR indique s'il existe des conflits à résoudre ou si la mise à jour peut être automatiquement intégrée (*'This branch has no conflicts with the base branch'*).
+
+
+![](images/pullrequest2.png)
+
+ - Pour tester un code (applications) avant de l'approuver :  
+cliquer sur **command line instructions** en bas de la pull request : cela revient à créer dans votre dépôt local une branche (que l'on nomme comme on le souhaite) et d'y effectuer un pull depuis l'URL proposée.  
+Par exemple :
+ - `git checkout -b [ma_branche_test_PR34]`
+ - `git pull [URL_de_la_branche_incluant_le_nouveau_code (ex: https://github.com/carinedengler/lettres-app.git)] 'id suggéré (ex: lettres-vue#25)'
+
+Tester, tester , tester
+
+- Si les mises à jour proposées sont satisfaisantes : cliquer sur **Merge pull request.**
+- Sinon, ajouter un commentaire pour que vos interlocuteurs revoient leurs mises à jour et soumettent une nouvelle version.
+- Si la pull request n'est pas ou plus pertinente, cliquer **Close pull request** (ferme la PR sans intégrer le nouveau code).
 
  
 

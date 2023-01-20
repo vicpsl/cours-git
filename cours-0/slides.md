@@ -16,7 +16,7 @@ Victor Boby
 - 5 cours de 2h
 	- Git, commandes de base
 	- GitHub: Collaborer et faire de l'open-source / data
-	- Organisation de projet, tests et intégration continue
+	- Organisation de projet, bonnes pratiques
 
 ---
 
