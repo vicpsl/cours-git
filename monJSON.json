@@ -1,332 +1,354 @@
 {
-  "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/manifest.json",
-  "label" : "BnF. Département des Manuscrits. Français 24378",
+  "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/manifest.json",
+  "label" : "BnF, département Arsenal, RESERVE 4-BL-4249",
   "attribution" : "Bibliothèque nationale de France",
   "license" : "https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica",
   "logo" : "https://gallica.bnf.fr/mbImage/logos/logo-bnf.png",
-  "related" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q",
-  "seeAlso" : [ "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b10532591q" ],
-  "description" : "Gérard de Nevers, mise en prose du Roman de la Violette de Gerbert de Montreuil.",
+  "related" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378",
+  "seeAlso" : [ "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/bpt6k8533378" ],
+  "description" : "Tresplaisante et recreative hystoire du trespreulx et vaillant chevallier Perceval le Galloys, jadis chevallier de la Table ronde. Lequel acheva les adventures du Sainct Graal . Avec aulchuns faictz belliqueulx du noble chevalier Gauvain et aultres chevalliers estans au temps du noble roy Artus, non au paravant imprime",
   "metadata" : [ {
     "label" : "Repository",
-    "value" : ""
+    "value" : "Bibliothèque nationale de France"
   }, {
     "label" : "Digitised by",
     "value" : "Bibliothèque nationale de France"
   }, {
     "label" : "Source Images",
-    "value" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q"
+    "value" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378"
   }, {
     "label" : "Metadata Source",
-    "value" : "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/btv1b10532591q"
+    "value" : "http://oai.bnf.fr/oai2/OAIHandler?verb=GetRecord&metadataPrefix=oai_dc&identifier=oai:bnf.fr:gallica/ark:/12148/bpt6k8533378"
   }, {
     "label" : "Shelfmark",
-    "value" : "Bibliothèque nationale de France. Département des Manuscrits. Français 24378"
+    "value" : "Bibliothèque nationale de France, département Arsenal, RESERVE 4-BL-4249"
   }, {
     "label" : "Title",
-    "value" : "Gérard de Nevers, mise en prose du Roman de la Violette de Gerbert de Montreuil."
+    "value" : "Tresplaisante et recreative hystoire du trespreulx et vaillant chevallier Perceval le Galloys, jadis chevallier de la Table ronde. Lequel acheva les adventures du Sainct Graal . Avec aulchuns faictz belliqueulx du noble chevalier Gauvain et aultres chevalliers estans au temps du noble roy Artus, non au paravant imprime"
   }, {
     "label" : "Date",
-    "value" : "1401-1500"
+    "value" : "1530"
   }, {
     "label" : "Language",
-    "value" : "français"
+    "value" : [ {
+      "@value" : "français moyen"
+    }, {
+      "@value" : "français moyen "
+    } ]
   }, {
     "label" : "Format",
-    "value" : "Flandres. - (. - Bruges. - ). - Écriture bâtarde bourguignonne. Manuscrit copié par Guiot d'Augerans (colophon p. 348), à qui sont également dûs les manuscrits Français 9200-9201. - 55 miniatures (environ 70-90 × 108 mm) : P. 1 L’auteur présente le livre à son dédicataire, Charles I er, comte de Nevers et de Rethel. P. 5 Fête donnée par le roi Louis VI le Gros au Pont-de-l'Arche pour Pentecôte. P. 12 Devant le roi, Gérard de Nevers relève le défi lancé par Liziart, comte de Forest, qui prétend pouvoir séduire son amie, la fidèle Euriant. P. 21 À Nevers, Euriant éconduit Liziart ; Gondrée, la gouvernante d’Euriant, réconforte le malheureux et conclut un marché avec lui ; elle se rend dans la chambre de sa maîtresse. P. 31 Gondrée incite Euriant à prendre un bain ; avec la complicité de Gondrée, Liziart observe en cachette, à travers un trou dans le mur, la jeune femme au bain : il voit la tache en forme de violette sur son sein. P. 35 Liziart prend congé d’Euriant. P. 39 Liziart, rentré à la cour, affirme devant le roi avoir séduit Euriant ; Gérard envoie son serviteur la chercher. P. 47 Euriant, agenouillée devant le roi, est mise en cause par Liziart en présence de Gérard et de la cour. P. 51 Gérard se détourne d’Euriant ; tous deux quittent la cour à cheval. P. 57 Dans la forêt, Gérard s’apprête à décapiter Euriant, mais il est attaqué par un dragon et le tue. P. 61 Gérard et Euriant rendent grâce à Dieu devant le cadavre du dragon. P. 64 Le duc de Metz trouve Euriant abandonnée dans la forêt ; elle refuse son aide. P. 71 Le duc de Metz et ses hommes forcent Euriant à les suivre. P. 74 Gérard est accueilli par un jongleur qui lui est resté fidèle ; à l’arrière-plan, la ville de Nevers qu’il a dû céder à Liziart après la perte de son pari. P. 78 Déguisé en jongleur, Gérard se présente au palais de Nevers, où Liziart et Gondrée festoient. P. 82 Gérard, se réchauffant près de la cheminée, écoute la conversation entre les deux complices et apprend la vérité ; il quitte le palais et retourne chez le jongleur. P. 87 Gérard arrive devant une cité des Ardennes en guerre et se présente aux soldats gardant la porte ; il rencontre la châtelaine, Engline, dans le donjon. P. 95 Gérard, armé et à cheval, va à la rencontre de Galerant et de ses hommes, qui assiègent la cité. P. 101 Combat singulier entre Gérard et Galerant, au pied des remparts d’où les observent Engline et les assiégés. P. 107 Galerant est décapité ; Engline et sa suite se précipitent pour secourir Gérard, blessé ; le siège est levé. P. 115 Arrivé à Châlons-en-Champagne, Gérard, malade, est soigné par la fille d’un bourgeois. P. 120 Gérard prend congé de la jeune femme, qui lui a remis des vêtements neufs et qui lui offre un épervier. P. 123 Gérard est accueilli dans la demeure d’un bourgeois de Cologne, qui l’invite à sa table. P. 131 Gérard transperce de sa lance l’un des chevaliers qui attaquent la ville, au pied des remparts d’où l’observent Aiglantine, la fille du duc de Cologne, et sa suivante, Florentine. P. 136 Bataille entre l’armée du duc de Cologne et les Saxons. P. 146 Aiglantine et Florentine se disputent les faveurs de Gérard ; Aiglantine l’accueille au palais. P. 155 Gérard et Aiglantine conversent, en présence de Florentine et des suivantes. P. 163 Tourment d’Aiglantine, dans son lit, entre Florentine et sa gouvernante ; la gouvernante va au jardin couper des herbes pour fabriquer un philtre d’amour. P. 164 La gouvernante offre la boisson à Gérard, invité dans la chambre d’Aiglantine. P. 175 Gérard, sous l’emprise du philtre, prend congé d’Aiglantine, puis de Florentine. P. 180 Les femmes aux fenêtres regardent partir Gérard et l’armée du duc de Cologne pour la guerre. P. 193 Le duc de Metz rend visite à Euriant, prostrée. P. 197 Un mauvais chevalier, Meliatir, fait des avances à Euriant, qui le repousse ; il la saisit mais elle se défend et le griffe au visage. P. 199 Euriant retrouve la sœur du duc de Metz, Ismaine ; tandis qu’elles dorment dans le même lit, Meliatir tue Ismaine et place le couteau dans la main d’Euriant. P. 207 Le duc de Cologne propose à Gérard et à Aiglantine de les marier. P. 213 Parti à la chasse avec son hôte, Gérard lâche son épervier sur une alouette qui porte au cou un anneau ; ayant reconnu la bague qu’il avait offerte à Euriant, Gérard se trouve libéré du philtre et, prêt à quitter Cologne, laisse l’épervier à son hôte. P. 219 L’hôte de Gérard se présente seul à la cour du duc et remet l’épervier à Aiglantine. P. 225 Gérard trouve sur sa route un chevalier blessé, dont la femme a été enlevée par des soldats ; il part à leur poursuite. P. 236 Ayant repris la route, Gérard trouve une demoiselle plongée nue dans l’eau d’une fontaine ; il se bat en duel contre le chevalier qui l’a ainsi punie et le tue. P. 245 Gérard, en armes, dort sur le giron de la demoiselle ; un écuyer s’approche d’eux. P. 250 Gérard, arrivant près d’un château sur une terre dépeuplée, s’adresse à un écuyer. P. 254 Gérard voit sortir du château un chevalier affligé, avec sa femme et sa fille. P. 260 Gérard combat le géant qui dévaste la région. P. 273 Gérard prend congé du chevalier, de sa femme et de sa fille, qu’il a sauvée. P. 278 Approchant de Metz, Gérard rencontre les hommes du comte de Bar, qui l’informent du meurtre d’Ismaine. P. 283 Euriant comparaît devant le duc de Metz, le comte de Bar et le conseil des barons ; Gérard intervient. P. 288 Combat entre Gérard et Meliatir, observés par le duc et le comte ; Euriant face au bûcher. P. 296 Gérard, vainqueur, est escorté au palais où l’attendent le duc et le comte ; Euriant se jette à genoux devant lui. P. 304 Gérard, Euriant et la cour ducale se rendent au tournoi de Montargis. P. 313 Tournoi de Montargis, en présence du roi. P. 320 Le roi en personne et ses barons escortent Gérard, vainqueur du tournoi, jusqu’à son logis ; celui-ci les salue. P. 327 Gérard et Euriant sont reçus à la cour par le roi. P. 333 Duel entre Gérard et Liziart ; Liziart, à terre, le bras tranché, confesse au roi sa faute. P. 342 Le roi, prenant Gérard par la main, lui restitue ses terres. P. 345 Gondrée est brûlée sur le bûcher.Ces miniatures sont l'œuvre de Loyset Liédet (mort après 1483), enlumineur ayant travaillé à Bruges au service de la cour de Bourgogne. Bien que le texte ait été copié pour Philippe III le Bon, l'inventaire de sa librairie, dressé entre 1467 et 1469, atteste que les miniatures ne furent réalisées qu'après sa mort, sous le règne de Charles le Téméraire (cf. Anne DUBOIS, dans Miniatures flamandes, 1404-1482, 2011, p. 267).Au bas de la p. 348, on peut lire le fragment d'un décompte des enluminures destiné à établir la rémunération du peintre (\"Item en ce livre cy sont IIIc lettres champies ...\"). Pascal Schandel, qui le premier a identifié cette note, en a recensé de semblables dans plusieurs manuscrits illustrés par Loyset Liédet (Paris, BnF, Manuscrits, Français 6463, Français 9200, Français 22547 ; cf. Pascal SCHANDEL dans Miniatures flamandes, 1404-1482, 2011, p. 305). - Décor secondaire : 2 initiales ornées de vignette sur fond d'or (3 interlignes), au début du prologue (p. 1) et du récit (p. 5) ; une initiale champie (2 interlignes) sous chaque miniature ; bouts-de-ligne et pieds-de-mouche champis ; intitulés rubriqués ; capitales rehaussées de jaune. - Parchemin. - 348 pages, précédées et suivies d'un feuillet de garde de parchemin et de deux feuillets de garde de papier moderne. - 270 × 185/190 mm (justification : 170 × 107 mm environ). - 22 cahiers : 21 cahiers de 8 feuillets chacun (p. 1-16, 17-32, 33-48, 49-64, 65-80, 81-96, 97-112, 113-128, 129-144, 145-160, 161-176, 177-192, 193-208, 209-224, 225-240, 241-256, 257-272, 273-288, 289-304, 305-320, 321-336) + 1 cahier de 6 feuillets (p. 337-348). Cahiers signés par bifeuillets (une lettre par cahier, de a à y, suivie du numéro de bifeuillet de I à IIII). Réclames verticales. - Réglure à l'encre rose et violette, 20 longues lignes. - Reliure de maroquin citron, au chiffre de Roger de Gaignières (1642-1715), gardes et contre-gardes de papier doré gaufré de couleur mauve, tranches dorées, titre au dos : HISTOIRE DE GIRART COMTE DE NEVERS. Reliure restaurée en 1974 (étiquette sur la garde inférieure).La reliure originelle, réalisée entre 1469 et 1499, était pour sa part \"de cuir blanc a brayes, a deux cloans de tissu de layne, a V boutons de lecton\" (BARROIS, 1830, n° 2200 ; Corpus Catalogorum Belgii, 2016, n° 11.20). - Estampilles : Bibliothèque nationale (Révolution), 1792-1802 (modèle identique à JOSSERAND-BRUNO, n° 17), ex. p. 1 et 348 ; Bibliothèque impériale (Second Empire), 1852-1870 (modèle avec mention \"MSS\", proche de JOSSERAND-BRUNO n° 36), ex. p. 5"
-  }, {
-    "label" : "Creator",
     "value" : [ {
-      "@value" : "Gerbert de Montreuil. Auteur du texte"
+      "@value" : "IV-220 f. : car. goth., titre rouge et noir, avec encadrement gr., fig. ; in-folio"
     }, {
-      "@value" : "Liédet, Loyset (1420?-148.). Enlumineur"
-    }, {
-      "@value" : "Wavrin, Jean de (1400?-1474?). Auteur prétendu du texte"
+      "@value" : "Nombre total de vues :  465"
     } ]
   }, {
     "label" : "Relation",
-    "value" : "Notice du catalogue : http://archivesetmanuscrits.bnf.fr/ark:/12148/cc531998"
+    "value" : "Notice d'ensemble : http://catalogue.bnf.fr/ark:/12148/cb30925590q"
+  }, {
+    "label" : "Relation",
+    "value" : "Notice d’oeuvre : http://catalogue.bnf.fr/ark:/12148/cb171503036"
+  }, {
+    "label" : "Relation",
+    "value" : "Notice du catalogue : http://catalogue.bnf.fr/ark:/12148/cb30925590q"
   }, {
     "label" : "Type",
-    "value" : "Manuscrit"
-  }, {
-    "label" : "Place",
-    "value" : [ {
-      "@value" : "Lieu de copie : Flandres",
-      "@language" : ""
-    }, {
-      "@value" : "Lieu de copie : Bruges",
-      "@language" : ""
-    } ]
+    "value" : "Livre"
   } ],
   "sequences" : [ {
     "canvases" : [ {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f1",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f1",
       "label" : "plat sup.",
-      "height" : 4589,
-      "width" : 3235,
+      "height" : 4353,
+      "width" : 3210,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f1",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f1",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f1"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f1"
           },
-          "height" : 4589,
-          "width" : 3235,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f1/full/full/0/native.jpg",
+          "height" : 4353,
+          "width" : 3210,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f1/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f1.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f1.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f2",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f2",
       "label" : "contreplat sup.",
-      "height" : 4553,
-      "width" : 3118,
+      "height" : 4346,
+      "width" : 3146,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f2",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f2",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f2"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f2"
           },
-          "height" : 4553,
-          "width" : 3118,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f2/full/full/0/native.jpg",
+          "height" : 4346,
+          "width" : 3146,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f2/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f2.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f2.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f3",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f3",
       "label" : "page de garde recto",
-      "height" : 4372,
-      "width" : 2974,
+      "height" : 4353,
+      "width" : 2951,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f3",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f3",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f3"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f3"
           },
-          "height" : 4372,
-          "width" : 2974,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f3/full/full/0/native.jpg",
+          "height" : 4353,
+          "width" : 2951,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f3/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f3.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f3.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f4",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f4",
       "label" : "page de garde verso",
-      "height" : 4422,
-      "width" : 3004,
+      "height" : 4346,
+      "width" : 3146,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f4",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f4",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f4"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f4"
           },
-          "height" : 4422,
-          "width" : 3004,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f4/full/full/0/native.jpg",
+          "height" : 4346,
+          "width" : 3146,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f4/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f4.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f4.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f5",
-      "label" : "page de garde recto",
-      "height" : 4405,
-      "width" : 2986,
-      "images" : [ {
-        "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f5",
-        "resource" : {
-          "format" : "image/jpeg",
-          "service" : {
-            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f5"
-          },
-          "height" : 4405,
-          "width" : 2986,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f5/full/full/0/native.jpg",
-          "@type" : "dctypes:Image"
-        },
-        "@type" : "oa:Annotation"
-      } ],
-      "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f5.thumbnail"
-      },
-      "@type" : "sc:Canvas"
-    }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f6",
-      "label" : "page de garde verso",
-      "height" : 4443,
-      "width" : 2980,
-      "images" : [ {
-        "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f6",
-        "resource" : {
-          "format" : "image/jpeg",
-          "service" : {
-            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f6"
-          },
-          "height" : 4443,
-          "width" : 2980,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f6/full/full/0/native.jpg",
-          "@type" : "dctypes:Image"
-        },
-        "@type" : "oa:Annotation"
-      } ],
-      "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f6.thumbnail"
-      },
-      "@type" : "sc:Canvas"
-    }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f7",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f5",
       "label" : "NP",
-      "height" : 4402,
-      "width" : 2959,
+      "height" : 4353,
+      "width" : 2951,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f7",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f5",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f7"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f5"
           },
-          "height" : 4402,
-          "width" : 2959,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f7/full/full/0/native.jpg",
+          "height" : 4353,
+          "width" : 2951,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f5/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f7.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f5.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f8",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f6",
       "label" : "NP",
-      "height" : 4434,
-      "width" : 2926,
+      "height" : 4346,
+      "width" : 3007,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f8",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f6",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f8"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f6"
           },
-          "height" : 4434,
-          "width" : 2926,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f8/full/full/0/native.jpg",
+          "height" : 4346,
+          "width" : 3007,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f6/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f8.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f6.thumbnail"
       },
       "@type" : "sc:Canvas"
     }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f9",
-      "label" : "1",
-      "height" : 4387,
-      "width" : 2968,
-      "images" : [ {
-        "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f9",
-        "resource" : {
-          "format" : "image/jpeg",
-          "service" : {
-            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
-            "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f9"
-          },
-          "height" : 4387,
-          "width" : 2968,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f9/full/full/0/native.jpg",
-          "@type" : "dctypes:Image"
-        },
-        "@type" : "oa:Annotation"
-      } ],
-      "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f9.thumbnail"
-      },
-      "@type" : "sc:Canvas"
-    }, {
-      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f10",
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f7",
       "label" : "NP",
-      "height" : 4425,
-      "width" : 2959,
+      "height" : 4353,
+      "width" : 2951,
       "images" : [ {
         "motivation" : "sc:painting",
-        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/canvas/f10",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f7",
         "resource" : {
           "format" : "image/jpeg",
           "service" : {
             "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
             "@context" : "http://iiif.io/api/image/1/context.json",
-            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f10"
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f7"
           },
-          "height" : 4425,
-          "width" : 2959,
-          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/f10/full/full/0/native.jpg",
+          "height" : 4353,
+          "width" : 2951,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f7/full/full/0/native.jpg",
           "@type" : "dctypes:Image"
         },
         "@type" : "oa:Annotation"
       } ],
       "thumbnail" : {
-        "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q/f10.thumbnail"
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f7.thumbnail"
+      },
+      "@type" : "sc:Canvas"
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f8",
+      "label" : "NP",
+      "height" : 4346,
+      "width" : 3007,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f8",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f8"
+          },
+          "height" : 4346,
+          "width" : 3007,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f8/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f8.thumbnail"
+      },
+      "@type" : "sc:Canvas"
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f9",
+      "label" : "NP",
+      "height" : 4353,
+      "width" : 2951,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f9",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f9"
+          },
+          "height" : 4353,
+          "width" : 2951,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f9/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f9.thumbnail"
+      },
+      "@type" : "sc:Canvas"
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f10",
+      "label" : "NP",
+      "height" : 4346,
+      "width" : 3007,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f10",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f10"
+          },
+          "height" : 4346,
+          "width" : 3007,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f10/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f10.thumbnail"
+      },
+      "@type" : "sc:Canvas"
+    }, {
+      "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f11",
+      "label" : "NP",
+      "height" : 4353,
+      "width" : 2951,
+      "images" : [ {
+        "motivation" : "sc:painting",
+        "on" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/canvas/f11",
+        "resource" : {
+          "format" : "image/jpeg",
+          "service" : {
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2",
+            "@context" : "http://iiif.io/api/image/1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f11"
+          },
+          "height" : 4353,
+          "width" : 2951,
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/f11/full/full/0/native.jpg",
+          "@type" : "dctypes:Image"
+        },
+        "@type" : "oa:Annotation"
+      } ],
+      "thumbnail" : {
+        "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378/f11.thumbnail"
       },
       "@type" : "sc:Canvas"
     } ],
     "label" : "Current Page Order",
     "@type" : "sc:Sequence",
-    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10532591q/sequence/default"
+    "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8533378/sequence/default"
   } ],
   "thumbnail" : {
-    "@id" : "https://gallica.bnf.fr/ark:/12148/btv1b10532591q.thumbnail"
+    "@id" : "https://gallica.bnf.fr/ark:/12148/bpt6k8533378.thumbnail"
   },
   "@type" : "sc:Manifest",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
