@@ -1,21 +1,74 @@
-% Développer et gérer un projet: les bonnes pratiques
+% Devoir Github : collaboration autour de la création de vérité terrain
 
 
-# 1. Quelles bonnes pratiques ?
+# 1. Philologie computationnelle
+
+### Approche tournée vers les données. Deux volets :
+1. Produire des données / “ecdotique numérique” :
+- acquisition du texte(HTR,...)
+- structuration (XML,...)
+- enrichissement (lemmatisation,annotation linguistique,paléographique...)
+
+2. Analyser les données :
+- analyse statistique (stylométrie, scriptométrie)
+- stemmatologie
+- modélisation
+
 
  
 
 <hr style="border:2px solid gray">
 
-# 2. Former et se former
+# 2. Collaboration autour de la création de vérité terrain
 
-![](images/Strip-Former-ou-ne-pas-former-650-final.jpg)
+### Acquisition du texte :
+
+Objectif : contribuer à un modèle pour les incunables, manuscrits et premiers imprimés 15e-16e de romans français
+
+Dans la constitution d’un corpus de textes, la première phase est bien sûr l’acquisition du contenu des textes envisagés.
+
+### Comment ? En combinant deux techniques
+Transcription des témoins, selon les critères scientifiques du projet (transcriptions allographétiques, graphématiques, normalisées ; édition critique ; etc.).
+
+“Transcription” assistée par ordinateur en utilisant un algorithme permettant la reconnaissance optique de caractères (*optical character recognition* ou **ocr**) imprimés, ou la reconnaissance des écritures manuscrites (*handwritten text recognition* ou **HTR**).
+
+Consignes de transcription : https://hal.archives-ouvertes.fr/hal-03697382/
+
+### Principe de base du HTR :
+Prédiction d’un contenu texte : 
+- à partir d’une image de la source
+- -par une intelligence artificielle
+- entraînée par un humain
+- dans un processus alternant
+  - phases d’intervention humaines
+  - phases de calcul.
+
+Collaboration active entre humain et machine.
+
 
  
 
 <hr style="border:2px solid gray">
 
-# 3. Ne jamais travailler sur master.
+# 3. La transcription
+
+Que doit--on représenter :
+
+- le “contenu” textuel ?
+- le “contenu” textuel normalisé ?
+- des graphèmes ? (Lettre ou groupe de lettres transcrivant un phonème)
+- un système graphique / allographique (Graphie alternative d'une lettre ou d'un mot)
+- une ponctuation et une segmentation modernisée ou non
+
+Choix de transcription : 
+
+1. Coller à la source ? (conserver les abréviations, la segmentation, la ponctuation...)  
+**Plus simple pour la reconnaissance**
+
+2. Se rapprocher d’un résultat normalisé ? (Transcrire en résolvant les abréviations, etc.)  
+**Besoin de plus de données pour des résultats** (mais, cf. projet Himanis).
+
+3. Concevoir une chaîne intégrant les deux?
 
 
  
