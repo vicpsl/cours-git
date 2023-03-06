@@ -95,10 +95,11 @@
 
 # Liens
 
-
 [Hive Best Practices https://github.com/wearehive/project-guidelines](https://github.com/wearehive/project-guidelines) pour Git
 
-[https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118](https://code.tutsplus.com/tutorials/top-15-best-practices-for-writing-super-readable-code--net-8118) pour le php
+[16 best practices for github](https://pub.towardsai.net/top-16-best-practices-to-use-github-professionally-345f613d5081)
+
+[Conférence de Bridget Almas sur la chaîne YouTube de l'École](https://www.youtube.com/watch?v=bhlBwnN_Pf4)
 
  
 
