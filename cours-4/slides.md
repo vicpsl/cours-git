@@ -50,6 +50,9 @@ Choisir les notifications souhaitées.
 - Les issues peuvent avoir des **labels**. Une série de labels par défaut existe, mais on peut tout à fait en ajouter à ses propres dépôts.
 - Les issues peuvent faire l'objet de regroupement dans des **projects** (sans deadline), des **milestones** (objectifs de sortie d'une nouvelle version).
 
+**Github propose des modèles d'issues :**  
+https://docs.github.com/fr/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+
  
 
 <hr style="border:2px solid gray">
@@ -89,7 +92,7 @@ Choisir les notifications souhaitées.
 # 9. Les dépôts dérivés (forks)
 
 - Les données de https://github.com/orgs/chartes/repositories?type=all vous intéresse. Mais vous aimeriez changer une partie des données : ne conserver que les testaments de poilu et supprimer les éléments qui ne correspondent pas à vos besoins.
-- À ce moment-là, on va réaliser un **fork** du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille sur ce repository ensuite localement, comme on travaillerait avec n'importe quel repository.
+- À ce moment-là, on va réaliser un **fork** du repository sur son propre compte. On obtient ainsi les droits d'écritures sur le repository tout en gardant l'ensemble de son historique. On travaille ensuite sur ce dépôt localement, comme on travaillerait avec n'importe quel dépôt.
 - **Note:** Si l'on fait des modifications sur un dépôt d'une autre personne, il est plus respectueux de faire un fork que de télécharger et de créer un nouveau dépôt.
 
 Pour réaliser un **fork**, se rendre sur le repo Github original et cliquer sur **fork** en haut à droite.
@@ -126,7 +129,7 @@ NB : la PR indique s'il existe des conflits à résoudre ou si la mise à jour p
 
 ![](images/pullrequest2.png)
 
- - Pour tester un code (applications) avant de l'approuver :  
+ - Pour tester un code (d'une application, d'un site) avant de l'approuver :  
 cliquer sur **command line instructions** en bas de la pull request : cela revient à créer dans votre dépôt local une branche (que l'on nomme comme on le souhaite) et d'y effectuer un pull depuis l'URL proposée.  
 Par exemple :
  - `git checkout -b [ma_branche_test_PR34]`
@@ -142,7 +145,7 @@ Tester, tester , tester
 
 <hr style="border:2px solid gray">
 
-# 11. Collaborer : les *pull requests* (Histoire exemple)
+# 11. Collaborer : les *pull requests* (exemple de déroulé du processus)
 
 -  Je remarque une erreur dans les métadonnées d'un document
 	1. J'ouvre une issue qui explique le problème (Typo dans le fichier X, etc.)
@@ -152,7 +155,7 @@ Tester, tester , tester
 		Tip : quand on créé une branche pour un objectif particulier (issue), on référence l'issue pour se souvenir de la raison de la création de la branche
 	5. Je fais la modification et je la commit
 	6. Je push
-	7. Je fais une pull request sur le repository d'origine
+	7. Je fais une pull request sur le dépôt d'origine
 
  
 
@@ -176,6 +179,14 @@ Effectuer (modifier le slides.md de ce cours) et proposer la suppression d'une d
   - ligne 11 à supprimer
   - ligne 12 à supprimer
   - ligne 13 à supprimer
+  - ligne 14 à supprimer
+  - ligne 15 à supprimer
+  - ligne 16 à supprimer
+  - ligne 17 à supprimer
+  - ligne 18 à supprimer
+  - ligne 19 à supprimer
+  - ligne 20 à supprimer
+
 
  
 

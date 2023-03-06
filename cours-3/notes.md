@@ -1,17 +1,17 @@
 # Slide 1
 
-Avec les branches, nous avons vu la capacité de travailler sur des versions alternatives à notre version principale, des sortes d'enregistrer sous. Si l'on compare ce que l'on a vu avec les capacités d'un Dropbox ou d'un Google Drive, quelle fonctionnalité est manquante ?
+Avec les branches, nous avons vu la capacité de travailler sur des versions alternatives à notre version principale, des sortes d'"*enregistrer sous*". Si l'on compare ce que l'on a vu avec les capacités d'un Dropbox ou d'un Google Drive, quelle fonctionnalité est manquante ?
 
 # Slide 2
 
-Heureusement, des entreprises et des structures publiques fournissent des services de ce type. Git peut être utilisé avec des serveurs distants. Il s'agit ensuite de trouver la version qui vous convient, avec les outils qui l'accompagnent. On distingue deux grands concurrents : Github et Gitlab. L'avantage de Gitlab sur github est le caractère en partie OpenSource du logiciel qui le fait tourner (cela veut donc dire qu'on peut l'installer et donc répliquer l'infrastructure sur son propre serveur). L'avantage de Github sur Gitlab est son adoption par les développeur-ses et son âge.
+Heureusement, des entreprises et des structures publiques fournissent des services de ce type. Git peut être utilisé avec des serveurs distants. Il s'agit ensuite de trouver la version qui vous convient, avec les outils qui l'accompagnent. On distingue deux grands concurrents : Github et Gitlab. L'avantage de Gitlab sur github est le caractère en partie OpenSource du logiciel qui le fait tourner (cela veut donc dire qu'on peut l'installer et donc répliquer l'infrastructure sur son propre serveur). L'avantage de Github sur Gitlab est son adoption par les développeur-ses.
 
 # Slide 3
 
 Faire un dessin permettant de faire comprendre
 
 - *remote* : Serveur distant permettant la synchronisation manuelle de votre dépôt
-- *origin* : Nom du serveur principal, un peu comme master est la branche principale. Pour l'instant, nos serveurs n'en ont pas
+- *origin* : Nom du serveur principal, un peu comme master est la branche principale. Pour l'instant, nos dépôts n'en ont pas
 - *push* : Envoyez les modifications effectuées sur un serveur donné.
 - *pull* : Retrouvez les informations depuis un serveur donné
 - *clone* : Copie sur votre PC d'un dépôt trouvé en ligne

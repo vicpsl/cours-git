@@ -14,9 +14,14 @@
 
 Des entreprises et des structures du public fournissent des serveurs centralisés pour git :
 
-- [Github](https://github.com) qui est le plus à la mode et que nous utiliserons
-- [Gitlab](https://gitlab.com) qui est le concurrent le plus sérieux de github aujourd'hui
+- [Github](https://github.com), qui est le plus à la mode et que nous utiliserons
+- [Gitlab](https://gitlab.com), qui est le concurrent le plus sérieux de github aujourd'hui
 - [Bitbucket](https://bitbucket.org)
+
+### Aller plus loin :
+- Quelques éléments de comparaison :   
+https://www.interviewbit.com/blog/bitbucket-vs-github/  
+https://disbug.io/en/blog/github-vs-gitlab-vs-bitbucket
 
  
 
@@ -33,10 +38,10 @@ Des entreprises et des structures du public fournissent des serveurs centralisé
 # 4. Le vocabulaire des serveurs distants pour Git
 
 - *remote* : Serveur distant permettant la synchronisation manuelle de votre dépôt
-- *origin* : Nom du serveur principal, un peu comme master est la branche principale. Pour l'instant, nos serveurs n'en ont pas
+- *origin* : Nom du serveur principal, un peu comme master est la branche principale. Pour l'instant, nos dépôts n'en ont pas
 - *push* : Envoyez les modifications effectuées sur un serveur donné.
-- *pull* : Retrouvez les informations depuis un serveur donné
-- *clone* : Copie sur votre PC d'un dépôt trouvé en ligne
+- *pull* : Synchroniser localement les informations depuis un serveur distant donné
+- *clone* : Copie sur votre PC d'un dépôt en ligne
 - *fork* : Dérivé d'un dépôt d'un-e autre développeur-se
 - *upstream* : Par convention, nom d'un second serveur, généralement le serveur source du *fork*
 
@@ -110,7 +115,7 @@ il se peut qu'un repository Git/Github distant soit protégé pour n'être modif
 
 
 - Cependant, cela n'empêche pas de les **cloner** et de travailler dessus localement.  
-Vous ne pourrez juste pas modifier le Git distant (remote) si vous n'avez pas accès en écriture.
+Vous ne pourrez juste pas modifier le dépôt Git distant (remote) si vous n'avez pas accès en écriture.
 
 ### Cloner un dépôt :
 
