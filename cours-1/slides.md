@@ -47,14 +47,14 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 - Date d'avril 2005, créé par le créateur du noyau Linux Linus Torvalds et par Junio Hamano
 - Sous licence libre GNU GPLv2
-- Version 2 actuellement
+- Version 2.43 actuellement (novembre 2023)
 - Autres outils : 
-	- connus : CVS, SVN (Subversion)  
+	- connus : [CVS](https://fr.wikipedia.org/wiki/Concurrent_versions_system), [SVN (Subversion)](https://fr.wikipedia.org/wiki/Apache_Subversion)  
 	- moins connus : Mercurial, Bazaar
 
 ---
 
-# 5. Git : Principes généraux
+# 5. Git : Principes généraux (le .git)
 
 - Travail dans un *repository* (dépôt en français) == un dossier
 	- Il contient un dossier (souvent caché) `.git` qui contient toutes les archives enregistrées
@@ -66,7 +66,7 @@ h3 { font-size: 1.2em; margin:0 0; padding:0 0; }
 
 ---
 
-# 6. Git : Principes généraux
+# 6. Git : Principes généraux (les états des fichiers)
 
 On distingue trois "états" des fichiers
 
@@ -136,11 +136,11 @@ Il possède d'ailleurs son propre système de compression.
   - base de données
   - les fichiers binaires, journaux, résultats de suivi ou données de diagnostic  
   Ce sont des sorties de votre code, pas le code source lui-même.  
-  Partagez ce type de ficheirs de suivi avec votre équipe via des outils de suivi/partage de fichiers.
+  Partagez ce type de fichiers de suivi avec votre équipe via des outils de suivi/partage de fichiers, non pas un dépôt de versionnage.
 
 
 - On évite d'inclure les fichiers périphériques au code (bibliothèques Python, etc) :  
-  Ces dépendances sont souvent listées dans un fichier texte, et on les installe séparemment.  
+  Ces dépendances sont souvent listées dans un fichier texte, et elles sont installées séparemment.  
   Vous avez peut-être déjà croisé la commande `pip install -r requirements.txt` ?
 
 ---

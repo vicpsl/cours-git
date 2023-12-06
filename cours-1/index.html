@@ -3060,8 +3060,8 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
         <li><a href="#bis.-problèmes-combinés">2bis. Problèmes combinés</a></li>
         <li><a href="#problèmes">3. Problème(s)</a></li>
         <li><a href="#git-un-outil-de-versionnage">4. Git : un outil de versionnage</a></li>
-        <li><a href="#git-principes-généraux">5. Git : Principes généraux</a></li>
-        <li><a href="#git-principes-généraux-1">6. Git : Principes généraux</a></li>
+        <li><a href="#git-principes-généraux-le-.git">5. Git : Principes généraux (le .git)</a></li>
+        <li><a href="#git-principes-généraux-les-états-des-fichiers">6. Git : Principes généraux (les états des fichiers)</a></li>
         <li><a href="#git-commandes-principales">7. Git : Commandes principales</a></li>
         <li><a href="#changer-les-couleurs-si-difficiles-à-lire">8. Changer les couleurs si difficiles à lire</a></li>
         <li><a href="#importance-des-messages">9. Importance des messages</a></li>
@@ -3105,16 +3105,16 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             <ul>
             <li>Date d’avril 2005, créé par le créateur du noyau Linux Linus Torvalds et par Junio Hamano</li>
             <li>Sous licence libre GNU GPLv2</li>
-            <li>Version 2 actuellement</li>
+            <li>Version 2.43 actuellement (novembre 2023)</li>
             <li>Autres outils :
             <ul>
-            <li>connus : CVS, SVN (Subversion)<br />
+            <li>connus : <a href="https://fr.wikipedia.org/wiki/Concurrent_versions_system">CVS</a>, <a href="https://fr.wikipedia.org/wiki/Apache_Subversion">SVN (Subversion)</a><br />
             </li>
             <li>moins connus : Mercurial, Bazaar</li>
             </ul></li>
             </ul>
             <hr />
-            <h1 id="git-principes-généraux">5. Git : Principes généraux</h1>
+            <h1 id="git-principes-généraux-le-.git">5. Git : Principes généraux (le .git)</h1>
             <ul>
             <li>Travail dans un <em>repository</em> (dépôt en français) == un dossier
             <ul>
@@ -3129,7 +3129,7 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             </ul></li>
             </ul>
             <hr />
-            <h1 id="git-principes-généraux-1">6. Git : Principes généraux</h1>
+            <h1 id="git-principes-généraux-les-états-des-fichiers">6. Git : Principes généraux (les états des fichiers)</h1>
             <p>On distingue trois “états” des fichiers</p>
             <ul>
             <li>un état de travail : le fichier a subi des modifications, mais nous ne l’avons pas encore ajouté (<code>add</code>) à un futur commit</li>
@@ -3180,10 +3180,10 @@ h4:hover a { color: #333; } h5:hover a { color: #333; } h6:hover a { color: #333
             <li>base de données</li>
             <li>les fichiers binaires, journaux, résultats de suivi ou données de diagnostic<br />
             Ce sont des sorties de votre code, pas le code source lui-même.<br />
-            Partagez ce type de ficheirs de suivi avec votre équipe via des outils de suivi/partage de fichiers.</li>
+            Partagez ce type de fichiers de suivi avec votre équipe via des outils de suivi/partage de fichiers, non pas un dépôt de versionnage.</li>
             </ul></li>
             <li>On évite d’inclure les fichiers périphériques au code (bibliothèques Python, etc) :<br />
-            Ces dépendances sont souvent listées dans un fichier texte, et on les installe séparemment.<br />
+            Ces dépendances sont souvent listées dans un fichier texte, et elles sont installées séparemment.<br />
             Vous avez peut-être déjà croisé la commande <code>pip install -r requirements.txt</code> ?</li>
             </ul>
             <hr />

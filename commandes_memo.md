@@ -1,7 +1,7 @@
 # 1. Commandes de bases de manipulation de dossiers / fichiers :
 
 - **Créer un dossier / répertoire** : `mkdir [nom du dossier]`
-- **Lire un répertoire** : `ls -la` (pour lister également les fichiers cachés .git / .gitignore)
+- **Lire un répertoire** : `ls -la` (-la pour lister également les fichiers cachés .git / .gitignore)
 - **Se déplacer dans un dossier** : `cd [adresse du dossier]` (Ex. `cd child` si l'on souhaite accéder au dossier 'child' du dossier parent où l'on se situe actuellement)
 - **Créer / éditer un fichier** : `touch [nom du fichier]` (créer un fichier vide sans ouvrir d'éditeur)
 - **Créer / modifier un fichier** : `nano [nom du fichier]` (ctrl+x pour quitter, sauvegarder avec O ou Y selon la langue + Enter)
@@ -24,7 +24,7 @@ Suppression : attention à la suppression récursive du type rm -r ou tous les d
 - **Créer une branche** : `git branch [nom de la branche]`
 - **Se déplacer dans une branche** : `git checkout [nom de la branche]`
 - **Créer et se déplacer sur une nouvelle branche en même temps** : `git checkout -b [nom de la branche]`
-- **Fusionner une branche** : `git merge [branche dont on veut les modifications]` (on fusionne toujours depuis la branche réceptrice, celle sur laquelle on veut continuer de travailler ensuite)
+- **Fusionner une branche** : `git merge [branche dont on veut les modifications]` (on fusionne généralement depuis la branche réceptrice, celle sur laquelle on veut continuer de travailler ensuite)
 
 # 3. Créer un dépôt Github à partir d'un dépôt local
 
@@ -77,6 +77,7 @@ Copie distante (et donc locale via un clone) avec possibilité de mise à jour d
 - `git pull --all` : **/!\\** mettre à jour immédiatement *toutes les branches liées* du dépôt local
 - `git push -u origin master` (voir 3) : **premier** push de synchronisation d'une branche locale vers le dépôt distant
 - `git push` (voir 3) : push de synchronisation d'une branche locale vers le dépôt distant
+- `git fetch --all -p`: mets à jour les références locales vers les branches distantes (ex: si une branche distante a été supprimée, la commande va supprimer cette référence localement) sans toucher la branche locale
 
 # 7. **Pulls Requests** : mise à jour d'un dépôt distant entre branches<sup>1</sup> ou entre un original (*upstream*) et son fork : 
 <sup>1</sup> Comme un "merge" entre branches locales mais sur le dépôt distant.
@@ -105,6 +106,13 @@ Git ne vous autorisera pas à supprimer la branche sur laquelle vous êtes, il f
 - **Supprimer dépôt distant** : `git push origin --delete [nom branche distante]`
 - **Forcer la suppression d'une branche non propre** (non *pushée* ou *mergée*) : remplacer -d par -D
 
+Création d'"alias" (noms de commandes personnalisées) :
+Pour créer un alias accessible dans tous vos repos :
+- Sur le modèle : `git config --global alias.[nom de votre alias]adog "[commande git]"`
+- Exemple intéressant : git config --global alias.adog "log --all --decorate --oneline --graph"`
+Pour lancer la commande : un simple `git adog` suffit désormais :
+
+![](images/adog.png)
 
 
 
