@@ -4,16 +4,15 @@ Ces cours sont sous licence CC BY. Les ressources utilisées par le cours sont t
 
 ## Cours
 
-1. [Git : Historique, commandes de base](./cours-1)
-2. [Git : Les branches](./cours-2)
-3. [Serveur distant : Github](./cours-3)
-4. [La collaboration avec Github](./cours-4)
-5. [Développer et gérer un projet: les bonnes pratiques](./cours-5)
+1. [Git](./cours-1) et [Commandes de base](./cours-2)
+2. [Serveur distant : Github](./cours-3) et [La collaboration avec Github](./cours-4)
+3. [Développer et gérer un projet: les bonnes pratiques](./cours-5)
+4. Introduction à eScriptorium
 
 
 ## Devoir
 
 - Création de set de données HTR en équipes sous la forme d'un dépôt GitHub.
 - Modalités : https://docs.google.com/document/d/1JIpAUSxpJg3DwjQrpogxDnAdIeMin-UDr1-U9ERvq3Y/edit#
-- En équipe de 3 à 4 personnes
-- Date de rendu : 31 mars 2023
+- 4 groupes de 4 personnes
+- Date de rendu : Février - Mars 2024 TBC

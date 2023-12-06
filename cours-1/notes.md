@@ -124,7 +124,7 @@ Faire une démo (essayer de faire deviner les commandes)
 - Copier ou télécharger l'image [blanc.png](https://ponteineptique.github.io/cours-git/cours-1/images/blanc.png)
 - `git add blanc.png`
 - `git commit -m "Ajout de l'image blanche"`
-- Copier ou télécharger l'image [blanc1.png](https://ponteineptique.github.io/cours-git/cours-1/images/blanc1.png) en la renommant blanc
+- Copier ou télécharger l'image [blanc2.png](https://ponteineptique.github.io/cours-git/cours-1/images/blanc2.png) en la renommant blanc
 - git diff
 - `git add blanc.png`
 - `git commit -m "correction de l'image blanche"`
