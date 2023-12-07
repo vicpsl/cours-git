@@ -91,7 +91,7 @@ La qualité des messages d'archivage est primordiale : faites-y attention. Il es
 
 Faire une démo (essayer de faire deviner les commandes)
 
-- `cd dev`
+- `cd cours-git-exemples`
 - `mkdir notes-du-cours`
 - `cd notes-du-cours`
 - `git init`
@@ -125,12 +125,13 @@ Faire une démo (essayer de faire deviner les commandes)
 - `git add blanc.png`
 - `git commit -m "Ajout de l'image blanche"`
 - Copier ou télécharger l'image [blanc2.png](https://ponteineptique.github.io/cours-git/cours-1/images/blanc2.png) en la renommant blanc
-- git diff
+- `git diff`
+- `git diff --binary`
 - `git add blanc.png`
 - `git commit -m "correction de l'image blanche"`
 
 # Slide 11
 
-- Tenter la même chose avec une image blanche et une image blanche avec un carré noire
+- Tenter la même chose avec une image blanche et une image blanche avec un carré noir
         -> Parler des limitations pour les fichiers compilés !
 
