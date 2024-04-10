@@ -75,7 +75,7 @@ Copie distante (et donc locale via un clone) avec possibilité de mise à jour d
 - `git branch -a` : lister toutes les branches
 - `git pull` : mettre à jour immédiatement *la branche courante* du dépôt local (combinaison de git fetch et git merge)
 - `git pull --all` : **/!\\** mettre à jour immédiatement *toutes les branches liées* du dépôt local
-- `git push -u origin master` (voir 3) : **premier** push de synchronisation d'une branche locale vers le dépôt distant
+- `git push -u origin [nom branche distante]` (voir 3) : **premier** push de synchronisation d'une branche locale vers le dépôt distant
 - `git push` (voir 3) : push de synchronisation d'une branche locale vers le dépôt distant
 - `git fetch --all -p`: mets à jour les références locales vers les branches distantes (ex: si une branche distante a été supprimée, la commande va supprimer cette référence localement) sans toucher la branche locale
 
