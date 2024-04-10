@@ -97,7 +97,11 @@
 
 [Hive Best Practices https://github.com/wearehive/project-guidelines](https://github.com/wearehive/project-guidelines) pour Git
 
-[16 best practices for github](https://pub.towardsai.net/top-16-best-practices-to-use-github-professionally-345f613d5081)
+[Git Best Practices – A Guide to Version Control for Beginners](https://www.freecodecamp.org/news/how-to-use-git-best-practices-for-beginners/)
+
+[GitHub Repository Structure Best Practices](https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405)
+
+[How To Use GitHub For Project Collaboration — Based on Agile Method](https://adiati.com/how-to-use-github-for-project-collaboration-based-on-agile-method)
 
 [Conférence de Bridget Almas sur la chaîne YouTube de l'École](https://www.youtube.com/watch?v=bhlBwnN_Pf4)
 
